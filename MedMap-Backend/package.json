@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "cosine-similarity": "^1.0.1",
+    "mongoose": "^8.14.1",
+    "natural": "^8.0.1"
+  }
+}

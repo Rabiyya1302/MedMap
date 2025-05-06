@@ -1,0 +1,4514 @@
+[
+  {
+    "disease": "Malaria",
+    "symptom_sentence_en": "Complaints of fever, nausea, sweating, chills were observed.",
+    "symptom_sentence_ur": "مریض کو بخار, متلی, پسینہ آنا, سردی لگنا محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "fever",
+      "nausea",
+      "sweating",
+      "chills"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "متلی",
+      "پسینہ آنا",
+      "سردی لگنا"
+    ]
+  },
+  {
+    "disease": "Malaria",
+    "symptom_sentence_en": "The individual is experiencing headache, chills, sweating.",
+    "symptom_sentence_ur": "سر درد, سردی لگنا, پسینہ آنا کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "headache",
+      "chills",
+      "sweating"
+    ],
+    "symptoms_ur": [
+      "سر درد",
+      "سردی لگنا",
+      "پسینہ آنا"
+    ]
+  },
+  {
+    "disease": "Malaria",
+    "symptom_sentence_en": "Symptoms include sweating, nausea, chills, fever.",
+    "symptom_sentence_ur": "پسینہ آنا, متلی, سردی لگنا, بخار کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "sweating",
+      "nausea",
+      "chills",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "پسینہ آنا",
+      "متلی",
+      "سردی لگنا",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "Malaria",
+    "symptom_sentence_en": "Reported signs are headache, nausea.",
+    "symptom_sentence_ur": "مریض کو سر درد, متلی کی شکایت ہے۔",
+    "symptoms_en": [
+      "headache",
+      "nausea"
+    ],
+    "symptoms_ur": [
+      "سر درد",
+      "متلی"
+    ]
+  },
+  {
+    "disease": "Malaria",
+    "symptom_sentence_en": "Reported signs are headache, fever, chills.",
+    "symptom_sentence_ur": "سر درد, بخار, سردی لگنا کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "headache",
+      "fever",
+      "chills"
+    ],
+    "symptoms_ur": [
+      "سر درد",
+      "بخار",
+      "سردی لگنا"
+    ]
+  },
+  {
+    "disease": "Malaria",
+    "symptom_sentence_en": "The patient is suffering from fever, nausea, headache.",
+    "symptom_sentence_ur": "علامات میں بخار, متلی, سر درد شامل ہیں۔",
+    "symptoms_en": [
+      "fever",
+      "nausea",
+      "headache"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "متلی",
+      "سر درد"
+    ]
+  },
+  {
+    "disease": "Malaria",
+    "symptom_sentence_en": "The patient is suffering from chills, headache, fever, nausea.",
+    "symptom_sentence_ur": "سردی لگنا, سر درد, بخار, متلی کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "chills",
+      "headache",
+      "fever",
+      "nausea"
+    ],
+    "symptoms_ur": [
+      "سردی لگنا",
+      "سر درد",
+      "بخار",
+      "متلی"
+    ]
+  },
+  {
+    "disease": "Malaria",
+    "symptom_sentence_en": "The individual is experiencing headache, chills.",
+    "symptom_sentence_ur": "سر درد, سردی لگنا کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "headache",
+      "chills"
+    ],
+    "symptoms_ur": [
+      "سر درد",
+      "سردی لگنا"
+    ]
+  },
+  {
+    "disease": "Malaria",
+    "symptom_sentence_en": "The individual is experiencing sweating, headache.",
+    "symptom_sentence_ur": "مریض کو پسینہ آنا, سر درد محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "sweating",
+      "headache"
+    ],
+    "symptoms_ur": [
+      "پسینہ آنا",
+      "سر درد"
+    ]
+  },
+  {
+    "disease": "Malaria",
+    "symptom_sentence_en": "The individual is experiencing fever, chills, nausea, headache.",
+    "symptom_sentence_ur": "بخار, سردی لگنا, متلی, سر درد کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "fever",
+      "chills",
+      "nausea",
+      "headache"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "سردی لگنا",
+      "متلی",
+      "سر درد"
+    ]
+  },
+  {
+    "disease": "Dengue",
+    "symptom_sentence_en": "The patient is suffering from fever, joint pain, headache.",
+    "symptom_sentence_ur": "علامات میں بخار, جوڑوں کا درد, سر درد شامل ہیں۔",
+    "symptoms_en": [
+      "fever",
+      "joint pain",
+      "headache"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "جوڑوں کا درد",
+      "سر درد"
+    ]
+  },
+  {
+    "disease": "Dengue",
+    "symptom_sentence_en": "The individual is experiencing nausea, rash.",
+    "symptom_sentence_ur": "متلی, جلدی دانے کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "nausea",
+      "rash"
+    ],
+    "symptoms_ur": [
+      "متلی",
+      "جلدی دانے"
+    ]
+  },
+  {
+    "disease": "Dengue",
+    "symptom_sentence_en": "The individual is experiencing nausea, headache.",
+    "symptom_sentence_ur": "متلی, سر درد کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "nausea",
+      "headache"
+    ],
+    "symptoms_ur": [
+      "متلی",
+      "سر درد"
+    ]
+  },
+  {
+    "disease": "Dengue",
+    "symptom_sentence_en": "Reported signs are joint pain, rash.",
+    "symptom_sentence_ur": "علامات میں جوڑوں کا درد, جلدی دانے شامل ہیں۔",
+    "symptoms_en": [
+      "joint pain",
+      "rash"
+    ],
+    "symptoms_ur": [
+      "جوڑوں کا درد",
+      "جلدی دانے"
+    ]
+  },
+  {
+    "disease": "Dengue",
+    "symptom_sentence_en": "Symptoms include fever, nausea, headache, rash.",
+    "symptom_sentence_ur": "مریض کو بخار, متلی, سر درد, جلدی دانے محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "fever",
+      "nausea",
+      "headache",
+      "rash"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "متلی",
+      "سر درد",
+      "جلدی دانے"
+    ]
+  },
+  {
+    "disease": "Dengue",
+    "symptom_sentence_en": "Reported signs are nausea, headache, rash, fever, joint pain.",
+    "symptom_sentence_ur": "مریض کو متلی, سر درد, جلدی دانے, بخار, جوڑوں کا درد کی شکایت ہے۔",
+    "symptoms_en": [
+      "nausea",
+      "headache",
+      "rash",
+      "fever",
+      "joint pain"
+    ],
+    "symptoms_ur": [
+      "متلی",
+      "سر درد",
+      "جلدی دانے",
+      "بخار",
+      "جوڑوں کا درد"
+    ]
+  },
+  {
+    "disease": "Dengue",
+    "symptom_sentence_en": "Symptoms include joint pain, nausea, rash, headache.",
+    "symptom_sentence_ur": "علامات میں جوڑوں کا درد, متلی, جلدی دانے, سر درد شامل ہیں۔",
+    "symptoms_en": [
+      "joint pain",
+      "nausea",
+      "rash",
+      "headache"
+    ],
+    "symptoms_ur": [
+      "جوڑوں کا درد",
+      "متلی",
+      "جلدی دانے",
+      "سر درد"
+    ]
+  },
+  {
+    "disease": "Dengue",
+    "symptom_sentence_en": "Complaints of nausea, rash, fever were observed.",
+    "symptom_sentence_ur": "مریض کو متلی, جلدی دانے, بخار کی شکایت ہے۔",
+    "symptoms_en": [
+      "nausea",
+      "rash",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "متلی",
+      "جلدی دانے",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "Dengue",
+    "symptom_sentence_en": "The individual is experiencing joint pain, nausea, fever.",
+    "symptom_sentence_ur": "مریض کو جوڑوں کا درد, متلی, بخار کی شکایت ہے۔",
+    "symptoms_en": [
+      "joint pain",
+      "nausea",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "جوڑوں کا درد",
+      "متلی",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "Dengue",
+    "symptom_sentence_en": "The patient is suffering from joint pain, fever, rash.",
+    "symptom_sentence_ur": "جوڑوں کا درد, بخار, جلدی دانے کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "joint pain",
+      "fever",
+      "rash"
+    ],
+    "symptoms_ur": [
+      "جوڑوں کا درد",
+      "بخار",
+      "جلدی دانے"
+    ]
+  },
+  {
+    "disease": "Common Cold",
+    "symptom_sentence_en": "Symptoms include runny nose, cough.",
+    "symptom_sentence_ur": "ناک بہنا, کھانسی کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "runny nose",
+      "cough"
+    ],
+    "symptoms_ur": [
+      "ناک بہنا",
+      "کھانسی"
+    ]
+  },
+  {
+    "disease": "Common Cold",
+    "symptom_sentence_en": "Complaints of sore throat, cough, sneezing were observed.",
+    "symptom_sentence_ur": "مریض کو گلا خراب, کھانسی, چھینکیں کی شکایت ہے۔",
+    "symptoms_en": [
+      "sore throat",
+      "cough",
+      "sneezing"
+    ],
+    "symptoms_ur": [
+      "گلا خراب",
+      "کھانسی",
+      "چھینکیں"
+    ]
+  },
+  {
+    "disease": "Common Cold",
+    "symptom_sentence_en": "Symptoms include sneezing, sore throat, runny nose, cough.",
+    "symptom_sentence_ur": "مریض کو چھینکیں, گلا خراب, ناک بہنا, کھانسی کی شکایت ہے۔",
+    "symptoms_en": [
+      "sneezing",
+      "sore throat",
+      "runny nose",
+      "cough"
+    ],
+    "symptoms_ur": [
+      "چھینکیں",
+      "گلا خراب",
+      "ناک بہنا",
+      "کھانسی"
+    ]
+  },
+  {
+    "disease": "Common Cold",
+    "symptom_sentence_en": "Symptoms include sore throat, runny nose, cough.",
+    "symptom_sentence_ur": "گلا خراب, ناک بہنا, کھانسی کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "sore throat",
+      "runny nose",
+      "cough"
+    ],
+    "symptoms_ur": [
+      "گلا خراب",
+      "ناک بہنا",
+      "کھانسی"
+    ]
+  },
+  {
+    "disease": "Common Cold",
+    "symptom_sentence_en": "The patient is suffering from sore throat, runny nose.",
+    "symptom_sentence_ur": "مریض کو گلا خراب, ناک بہنا کی شکایت ہے۔",
+    "symptoms_en": [
+      "sore throat",
+      "runny nose"
+    ],
+    "symptoms_ur": [
+      "گلا خراب",
+      "ناک بہنا"
+    ]
+  },
+  {
+    "disease": "Common Cold",
+    "symptom_sentence_en": "The patient is suffering from runny nose, sneezing, sore throat, cough.",
+    "symptom_sentence_ur": "ناک بہنا, چھینکیں, گلا خراب, کھانسی کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "runny nose",
+      "sneezing",
+      "sore throat",
+      "cough"
+    ],
+    "symptoms_ur": [
+      "ناک بہنا",
+      "چھینکیں",
+      "گلا خراب",
+      "کھانسی"
+    ]
+  },
+  {
+    "disease": "Common Cold",
+    "symptom_sentence_en": "Complaints of sneezing, sore throat, runny nose, cough were observed.",
+    "symptom_sentence_ur": "چھینکیں, گلا خراب, ناک بہنا, کھانسی کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "sneezing",
+      "sore throat",
+      "runny nose",
+      "cough"
+    ],
+    "symptoms_ur": [
+      "چھینکیں",
+      "گلا خراب",
+      "ناک بہنا",
+      "کھانسی"
+    ]
+  },
+  {
+    "disease": "Common Cold",
+    "symptom_sentence_en": "The patient is suffering from runny nose, cough.",
+    "symptom_sentence_ur": "مریض کو ناک بہنا, کھانسی محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "runny nose",
+      "cough"
+    ],
+    "symptoms_ur": [
+      "ناک بہنا",
+      "کھانسی"
+    ]
+  },
+  {
+    "disease": "Common Cold",
+    "symptom_sentence_en": "Symptoms include runny nose, sore throat, sneezing.",
+    "symptom_sentence_ur": "مریض کو ناک بہنا, گلا خراب, چھینکیں محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "runny nose",
+      "sore throat",
+      "sneezing"
+    ],
+    "symptoms_ur": [
+      "ناک بہنا",
+      "گلا خراب",
+      "چھینکیں"
+    ]
+  },
+  {
+    "disease": "Common Cold",
+    "symptom_sentence_en": "The individual is experiencing cough, sore throat, runny nose, sneezing.",
+    "symptom_sentence_ur": "مریض کو کھانسی, گلا خراب, ناک بہنا, چھینکیں محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "cough",
+      "sore throat",
+      "runny nose",
+      "sneezing"
+    ],
+    "symptoms_ur": [
+      "کھانسی",
+      "گلا خراب",
+      "ناک بہنا",
+      "چھینکیں"
+    ]
+  },
+  {
+    "disease": "COVID-19",
+    "symptom_sentence_en": "Symptoms include cough, fever, loss of taste.",
+    "symptom_sentence_ur": "مریض کو کھانسی, بخار, ذائقہ کا ختم ہونا کی شکایت ہے۔",
+    "symptoms_en": [
+      "cough",
+      "fever",
+      "loss of taste"
+    ],
+    "symptoms_ur": [
+      "کھانسی",
+      "بخار",
+      "ذائقہ کا ختم ہونا"
+    ]
+  },
+  {
+    "disease": "COVID-19",
+    "symptom_sentence_en": "The patient is suffering from shortness of breath, fever, loss of taste, fatigue.",
+    "symptom_sentence_ur": "مریض کو سانس لینے میں دشواری, بخار, ذائقہ کا ختم ہونا, تھکن کی شکایت ہے۔",
+    "symptoms_en": [
+      "shortness of breath",
+      "fever",
+      "loss of taste",
+      "fatigue"
+    ],
+    "symptoms_ur": [
+      "سانس لینے میں دشواری",
+      "بخار",
+      "ذائقہ کا ختم ہونا",
+      "تھکن"
+    ]
+  },
+  {
+    "disease": "COVID-19",
+    "symptom_sentence_en": "Complaints of cough, shortness of breath, fatigue, loss of taste, fever were observed.",
+    "symptom_sentence_ur": "علامات میں کھانسی, سانس لینے میں دشواری, تھکن, ذائقہ کا ختم ہونا, بخار شامل ہیں۔",
+    "symptoms_en": [
+      "cough",
+      "shortness of breath",
+      "fatigue",
+      "loss of taste",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "کھانسی",
+      "سانس لینے میں دشواری",
+      "تھکن",
+      "ذائقہ کا ختم ہونا",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "COVID-19",
+    "symptom_sentence_en": "Reported signs are fever, loss of taste, fatigue, shortness of breath, cough.",
+    "symptom_sentence_ur": "مریض کو بخار, ذائقہ کا ختم ہونا, تھکن, سانس لینے میں دشواری, کھانسی کی شکایت ہے۔",
+    "symptoms_en": [
+      "fever",
+      "loss of taste",
+      "fatigue",
+      "shortness of breath",
+      "cough"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "ذائقہ کا ختم ہونا",
+      "تھکن",
+      "سانس لینے میں دشواری",
+      "کھانسی"
+    ]
+  },
+  {
+    "disease": "COVID-19",
+    "symptom_sentence_en": "The patient is suffering from loss of taste, fatigue, cough, shortness of breath, fever.",
+    "symptom_sentence_ur": "ذائقہ کا ختم ہونا, تھکن, کھانسی, سانس لینے میں دشواری, بخار کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "loss of taste",
+      "fatigue",
+      "cough",
+      "shortness of breath",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "ذائقہ کا ختم ہونا",
+      "تھکن",
+      "کھانسی",
+      "سانس لینے میں دشواری",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "COVID-19",
+    "symptom_sentence_en": "Symptoms include cough, fever, shortness of breath, loss of taste, fatigue.",
+    "symptom_sentence_ur": "مریض کو کھانسی, بخار, سانس لینے میں دشواری, ذائقہ کا ختم ہونا, تھکن کی شکایت ہے۔",
+    "symptoms_en": [
+      "cough",
+      "fever",
+      "shortness of breath",
+      "loss of taste",
+      "fatigue"
+    ],
+    "symptoms_ur": [
+      "کھانسی",
+      "بخار",
+      "سانس لینے میں دشواری",
+      "ذائقہ کا ختم ہونا",
+      "تھکن"
+    ]
+  },
+  {
+    "disease": "COVID-19",
+    "symptom_sentence_en": "The patient is suffering from cough, fever, shortness of breath.",
+    "symptom_sentence_ur": "مریض کو کھانسی, بخار, سانس لینے میں دشواری محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "cough",
+      "fever",
+      "shortness of breath"
+    ],
+    "symptoms_ur": [
+      "کھانسی",
+      "بخار",
+      "سانس لینے میں دشواری"
+    ]
+  },
+  {
+    "disease": "COVID-19",
+    "symptom_sentence_en": "The individual is experiencing cough, fatigue.",
+    "symptom_sentence_ur": "مریض کو کھانسی, تھکن کی شکایت ہے۔",
+    "symptoms_en": [
+      "cough",
+      "fatigue"
+    ],
+    "symptoms_ur": [
+      "کھانسی",
+      "تھکن"
+    ]
+  },
+  {
+    "disease": "COVID-19",
+    "symptom_sentence_en": "Complaints of fatigue, loss of taste, fever, cough were observed.",
+    "symptom_sentence_ur": "تھکن, ذائقہ کا ختم ہونا, بخار, کھانسی کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "fatigue",
+      "loss of taste",
+      "fever",
+      "cough"
+    ],
+    "symptoms_ur": [
+      "تھکن",
+      "ذائقہ کا ختم ہونا",
+      "بخار",
+      "کھانسی"
+    ]
+  },
+  {
+    "disease": "COVID-19",
+    "symptom_sentence_en": "Complaints of fever, shortness of breath, loss of taste, fatigue, cough were observed.",
+    "symptom_sentence_ur": "بخار, سانس لینے میں دشواری, ذائقہ کا ختم ہونا, تھکن, کھانسی کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "fever",
+      "shortness of breath",
+      "loss of taste",
+      "fatigue",
+      "cough"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "سانس لینے میں دشواری",
+      "ذائقہ کا ختم ہونا",
+      "تھکن",
+      "کھانسی"
+    ]
+  },
+  {
+    "disease": "Typhoid",
+    "symptom_sentence_en": "Complaints of constipation, headache, fever were observed.",
+    "symptom_sentence_ur": "مریض کو قبض, سر درد, بخار کی شکایت ہے۔",
+    "symptoms_en": [
+      "constipation",
+      "headache",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "قبض",
+      "سر درد",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "Typhoid",
+    "symptom_sentence_en": "The individual is experiencing headache, constipation.",
+    "symptom_sentence_ur": "مریض کو سر درد, قبض کی شکایت ہے۔",
+    "symptoms_en": [
+      "headache",
+      "constipation"
+    ],
+    "symptoms_ur": [
+      "سر درد",
+      "قبض"
+    ]
+  },
+  {
+    "disease": "Typhoid",
+    "symptom_sentence_en": "The individual is experiencing constipation, abdominal pain, fever, weakness, headache.",
+    "symptom_sentence_ur": "مریض کو قبض, پیٹ میں درد, بخار, کمزوری, سر درد کی شکایت ہے۔",
+    "symptoms_en": [
+      "constipation",
+      "abdominal pain",
+      "fever",
+      "weakness",
+      "headache"
+    ],
+    "symptoms_ur": [
+      "قبض",
+      "پیٹ میں درد",
+      "بخار",
+      "کمزوری",
+      "سر درد"
+    ]
+  },
+  {
+    "disease": "Typhoid",
+    "symptom_sentence_en": "Reported signs are constipation, weakness, headache, abdominal pain, fever.",
+    "symptom_sentence_ur": "علامات میں قبض, کمزوری, سر درد, پیٹ میں درد, بخار شامل ہیں۔",
+    "symptoms_en": [
+      "constipation",
+      "weakness",
+      "headache",
+      "abdominal pain",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "قبض",
+      "کمزوری",
+      "سر درد",
+      "پیٹ میں درد",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "Typhoid",
+    "symptom_sentence_en": "Symptoms include fever, headache.",
+    "symptom_sentence_ur": "مریض کو بخار, سر درد کی شکایت ہے۔",
+    "symptoms_en": [
+      "fever",
+      "headache"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "سر درد"
+    ]
+  },
+  {
+    "disease": "Typhoid",
+    "symptom_sentence_en": "Complaints of fever, constipation were observed.",
+    "symptom_sentence_ur": "علامات میں بخار, قبض شامل ہیں۔",
+    "symptoms_en": [
+      "fever",
+      "constipation"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "قبض"
+    ]
+  },
+  {
+    "disease": "Typhoid",
+    "symptom_sentence_en": "Symptoms include fever, abdominal pain, weakness, constipation.",
+    "symptom_sentence_ur": "مریض کو بخار, پیٹ میں درد, کمزوری, قبض کی شکایت ہے۔",
+    "symptoms_en": [
+      "fever",
+      "abdominal pain",
+      "weakness",
+      "constipation"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "پیٹ میں درد",
+      "کمزوری",
+      "قبض"
+    ]
+  },
+  {
+    "disease": "Typhoid",
+    "symptom_sentence_en": "The patient is suffering from abdominal pain, constipation.",
+    "symptom_sentence_ur": "علامات میں پیٹ میں درد, قبض شامل ہیں۔",
+    "symptoms_en": [
+      "abdominal pain",
+      "constipation"
+    ],
+    "symptoms_ur": [
+      "پیٹ میں درد",
+      "قبض"
+    ]
+  },
+  {
+    "disease": "Typhoid",
+    "symptom_sentence_en": "The patient is suffering from fever, weakness.",
+    "symptom_sentence_ur": "بخار, کمزوری کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "fever",
+      "weakness"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "کمزوری"
+    ]
+  },
+  {
+    "disease": "Typhoid",
+    "symptom_sentence_en": "Reported signs are headache, fever, constipation, weakness.",
+    "symptom_sentence_ur": "علامات میں سر درد, بخار, قبض, کمزوری شامل ہیں۔",
+    "symptoms_en": [
+      "headache",
+      "fever",
+      "constipation",
+      "weakness"
+    ],
+    "symptoms_ur": [
+      "سر درد",
+      "بخار",
+      "قبض",
+      "کمزوری"
+    ]
+  },
+  {
+    "disease": "Pneumonia",
+    "symptom_sentence_en": "Symptoms include shortness of breath, fever.",
+    "symptom_sentence_ur": "علامات میں سانس کی کمی, بخار شامل ہیں۔",
+    "symptoms_en": [
+      "shortness of breath",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "سانس کی کمی",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "Pneumonia",
+    "symptom_sentence_en": "The individual is experiencing fever, cough, shortness of breath.",
+    "symptom_sentence_ur": "مریض کو بخار, کھانسی, سانس کی کمی کی شکایت ہے۔",
+    "symptoms_en": [
+      "fever",
+      "cough",
+      "shortness of breath"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "کھانسی",
+      "سانس کی کمی"
+    ]
+  },
+  {
+    "disease": "Pneumonia",
+    "symptom_sentence_en": "Symptoms include fever, shortness of breath.",
+    "symptom_sentence_ur": "علامات میں بخار, سانس کی کمی شامل ہیں۔",
+    "symptoms_en": [
+      "fever",
+      "shortness of breath"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "سانس کی کمی"
+    ]
+  },
+  {
+    "disease": "Pneumonia",
+    "symptom_sentence_en": "The individual is experiencing cough, shortness of breath, chest pain.",
+    "symptom_sentence_ur": "کھانسی, سانس کی کمی, سینے میں درد کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "cough",
+      "shortness of breath",
+      "chest pain"
+    ],
+    "symptoms_ur": [
+      "کھانسی",
+      "سانس کی کمی",
+      "سینے میں درد"
+    ]
+  },
+  {
+    "disease": "Pneumonia",
+    "symptom_sentence_en": "Complaints of shortness of breath, cough, fever were observed.",
+    "symptom_sentence_ur": "علامات میں سانس کی کمی, کھانسی, بخار شامل ہیں۔",
+    "symptoms_en": [
+      "shortness of breath",
+      "cough",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "سانس کی کمی",
+      "کھانسی",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "Pneumonia",
+    "symptom_sentence_en": "The patient is suffering from chest pain, cough, fever.",
+    "symptom_sentence_ur": "علامات میں سینے میں درد, کھانسی, بخار شامل ہیں۔",
+    "symptoms_en": [
+      "chest pain",
+      "cough",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "سینے میں درد",
+      "کھانسی",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "Pneumonia",
+    "symptom_sentence_en": "Reported signs are shortness of breath, cough, chest pain, fever.",
+    "symptom_sentence_ur": "سانس کی کمی, کھانسی, سینے میں درد, بخار کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "shortness of breath",
+      "cough",
+      "chest pain",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "سانس کی کمی",
+      "کھانسی",
+      "سینے میں درد",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "Pneumonia",
+    "symptom_sentence_en": "Complaints of cough, fever, chest pain were observed.",
+    "symptom_sentence_ur": "علامات میں کھانسی, بخار, سینے میں درد شامل ہیں۔",
+    "symptoms_en": [
+      "cough",
+      "fever",
+      "chest pain"
+    ],
+    "symptoms_ur": [
+      "کھانسی",
+      "بخار",
+      "سینے میں درد"
+    ]
+  },
+  {
+    "disease": "Pneumonia",
+    "symptom_sentence_en": "Symptoms include chest pain, shortness of breath, cough, fever.",
+    "symptom_sentence_ur": "مریض کو سینے میں درد, سانس کی کمی, کھانسی, بخار کی شکایت ہے۔",
+    "symptoms_en": [
+      "chest pain",
+      "shortness of breath",
+      "cough",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "سینے میں درد",
+      "سانس کی کمی",
+      "کھانسی",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "Pneumonia",
+    "symptom_sentence_en": "The individual is experiencing fever, shortness of breath, chest pain.",
+    "symptom_sentence_ur": "بخار, سانس کی کمی, سینے میں درد کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "fever",
+      "shortness of breath",
+      "chest pain"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "سانس کی کمی",
+      "سینے میں درد"
+    ]
+  },
+  {
+    "disease": "Asthma",
+    "symptom_sentence_en": "The patient is suffering from wheezing, cough.",
+    "symptom_sentence_ur": "مریض کو سیٹی کی آواز کے ساتھ سانس, کھانسی کی شکایت ہے۔",
+    "symptoms_en": [
+      "wheezing",
+      "cough"
+    ],
+    "symptoms_ur": [
+      "سیٹی کی آواز کے ساتھ سانس",
+      "کھانسی"
+    ]
+  },
+  {
+    "disease": "Asthma",
+    "symptom_sentence_en": "The individual is experiencing wheezing, chest tightness, cough, shortness of breath.",
+    "symptom_sentence_ur": "علامات میں سیٹی کی آواز کے ساتھ سانس, سینے میں جکڑن, کھانسی, سانس کی کمی شامل ہیں۔",
+    "symptoms_en": [
+      "wheezing",
+      "chest tightness",
+      "cough",
+      "shortness of breath"
+    ],
+    "symptoms_ur": [
+      "سیٹی کی آواز کے ساتھ سانس",
+      "سینے میں جکڑن",
+      "کھانسی",
+      "سانس کی کمی"
+    ]
+  },
+  {
+    "disease": "Asthma",
+    "symptom_sentence_en": "Complaints of wheezing, shortness of breath, cough, chest tightness were observed.",
+    "symptom_sentence_ur": "مریض کو سیٹی کی آواز کے ساتھ سانس, سانس کی کمی, کھانسی, سینے میں جکڑن محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "wheezing",
+      "shortness of breath",
+      "cough",
+      "chest tightness"
+    ],
+    "symptoms_ur": [
+      "سیٹی کی آواز کے ساتھ سانس",
+      "سانس کی کمی",
+      "کھانسی",
+      "سینے میں جکڑن"
+    ]
+  },
+  {
+    "disease": "Asthma",
+    "symptom_sentence_en": "The patient is suffering from chest tightness, shortness of breath, wheezing.",
+    "symptom_sentence_ur": "مریض کو سینے میں جکڑن, سانس کی کمی, سیٹی کی آواز کے ساتھ سانس محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "chest tightness",
+      "shortness of breath",
+      "wheezing"
+    ],
+    "symptoms_ur": [
+      "سینے میں جکڑن",
+      "سانس کی کمی",
+      "سیٹی کی آواز کے ساتھ سانس"
+    ]
+  },
+  {
+    "disease": "Asthma",
+    "symptom_sentence_en": "Reported signs are shortness of breath, cough.",
+    "symptom_sentence_ur": "مریض کو سانس کی کمی, کھانسی کی شکایت ہے۔",
+    "symptoms_en": [
+      "shortness of breath",
+      "cough"
+    ],
+    "symptoms_ur": [
+      "سانس کی کمی",
+      "کھانسی"
+    ]
+  },
+  {
+    "disease": "Asthma",
+    "symptom_sentence_en": "Reported signs are chest tightness, wheezing.",
+    "symptom_sentence_ur": "سینے میں جکڑن, سیٹی کی آواز کے ساتھ سانس کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "chest tightness",
+      "wheezing"
+    ],
+    "symptoms_ur": [
+      "سینے میں جکڑن",
+      "سیٹی کی آواز کے ساتھ سانس"
+    ]
+  },
+  {
+    "disease": "Asthma",
+    "symptom_sentence_en": "Symptoms include wheezing, chest tightness, cough.",
+    "symptom_sentence_ur": "مریض کو سیٹی کی آواز کے ساتھ سانس, سینے میں جکڑن, کھانسی کی شکایت ہے۔",
+    "symptoms_en": [
+      "wheezing",
+      "chest tightness",
+      "cough"
+    ],
+    "symptoms_ur": [
+      "سیٹی کی آواز کے ساتھ سانس",
+      "سینے میں جکڑن",
+      "کھانسی"
+    ]
+  },
+  {
+    "disease": "Asthma",
+    "symptom_sentence_en": "The patient is suffering from wheezing, shortness of breath, chest tightness.",
+    "symptom_sentence_ur": "سیٹی کی آواز کے ساتھ سانس, سانس کی کمی, سینے میں جکڑن کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "wheezing",
+      "shortness of breath",
+      "chest tightness"
+    ],
+    "symptoms_ur": [
+      "سیٹی کی آواز کے ساتھ سانس",
+      "سانس کی کمی",
+      "سینے میں جکڑن"
+    ]
+  },
+  {
+    "disease": "Asthma",
+    "symptom_sentence_en": "Symptoms include cough, wheezing.",
+    "symptom_sentence_ur": "علامات میں کھانسی, سیٹی کی آواز کے ساتھ سانس شامل ہیں۔",
+    "symptoms_en": [
+      "cough",
+      "wheezing"
+    ],
+    "symptoms_ur": [
+      "کھانسی",
+      "سیٹی کی آواز کے ساتھ سانس"
+    ]
+  },
+  {
+    "disease": "Asthma",
+    "symptom_sentence_en": "The patient is suffering from shortness of breath, cough, chest tightness, wheezing.",
+    "symptom_sentence_ur": "مریض کو سانس کی کمی, کھانسی, سینے میں جکڑن, سیٹی کی آواز کے ساتھ سانس محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "shortness of breath",
+      "cough",
+      "chest tightness",
+      "wheezing"
+    ],
+    "symptoms_ur": [
+      "سانس کی کمی",
+      "کھانسی",
+      "سینے میں جکڑن",
+      "سیٹی کی آواز کے ساتھ سانس"
+    ]
+  },
+  {
+    "disease": "Diabetes",
+    "symptom_sentence_en": "Reported signs are frequent urination, increased thirst, fatigue.",
+    "symptom_sentence_ur": "مریض کو بار بار پیشاب آنا, زیادہ پیاس لگنا, تھکن کی شکایت ہے۔",
+    "symptoms_en": [
+      "frequent urination",
+      "increased thirst",
+      "fatigue"
+    ],
+    "symptoms_ur": [
+      "بار بار پیشاب آنا",
+      "زیادہ پیاس لگنا",
+      "تھکن"
+    ]
+  },
+  {
+    "disease": "Diabetes",
+    "symptom_sentence_en": "Symptoms include increased thirst, blurred vision.",
+    "symptom_sentence_ur": "مریض کو زیادہ پیاس لگنا, دھندلا دیکھنا کی شکایت ہے۔",
+    "symptoms_en": [
+      "increased thirst",
+      "blurred vision"
+    ],
+    "symptoms_ur": [
+      "زیادہ پیاس لگنا",
+      "دھندلا دیکھنا"
+    ]
+  },
+  {
+    "disease": "Diabetes",
+    "symptom_sentence_en": "The individual is experiencing blurred vision, increased thirst, frequent urination.",
+    "symptom_sentence_ur": "دھندلا دیکھنا, زیادہ پیاس لگنا, بار بار پیشاب آنا کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "blurred vision",
+      "increased thirst",
+      "frequent urination"
+    ],
+    "symptoms_ur": [
+      "دھندلا دیکھنا",
+      "زیادہ پیاس لگنا",
+      "بار بار پیشاب آنا"
+    ]
+  },
+  {
+    "disease": "Diabetes",
+    "symptom_sentence_en": "The patient is suffering from increased thirst, fatigue, blurred vision, frequent urination.",
+    "symptom_sentence_ur": "علامات میں زیادہ پیاس لگنا, تھکن, دھندلا دیکھنا, بار بار پیشاب آنا شامل ہیں۔",
+    "symptoms_en": [
+      "increased thirst",
+      "fatigue",
+      "blurred vision",
+      "frequent urination"
+    ],
+    "symptoms_ur": [
+      "زیادہ پیاس لگنا",
+      "تھکن",
+      "دھندلا دیکھنا",
+      "بار بار پیشاب آنا"
+    ]
+  },
+  {
+    "disease": "Diabetes",
+    "symptom_sentence_en": "Complaints of frequent urination, blurred vision were observed.",
+    "symptom_sentence_ur": "مریض کو بار بار پیشاب آنا, دھندلا دیکھنا کی شکایت ہے۔",
+    "symptoms_en": [
+      "frequent urination",
+      "blurred vision"
+    ],
+    "symptoms_ur": [
+      "بار بار پیشاب آنا",
+      "دھندلا دیکھنا"
+    ]
+  },
+  {
+    "disease": "Diabetes",
+    "symptom_sentence_en": "The patient is suffering from increased thirst, fatigue, frequent urination, blurred vision.",
+    "symptom_sentence_ur": "زیادہ پیاس لگنا, تھکن, بار بار پیشاب آنا, دھندلا دیکھنا کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "increased thirst",
+      "fatigue",
+      "frequent urination",
+      "blurred vision"
+    ],
+    "symptoms_ur": [
+      "زیادہ پیاس لگنا",
+      "تھکن",
+      "بار بار پیشاب آنا",
+      "دھندلا دیکھنا"
+    ]
+  },
+  {
+    "disease": "Diabetes",
+    "symptom_sentence_en": "Complaints of blurred vision, fatigue were observed.",
+    "symptom_sentence_ur": "مریض کو دھندلا دیکھنا, تھکن محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "blurred vision",
+      "fatigue"
+    ],
+    "symptoms_ur": [
+      "دھندلا دیکھنا",
+      "تھکن"
+    ]
+  },
+  {
+    "disease": "Diabetes",
+    "symptom_sentence_en": "Reported signs are increased thirst, frequent urination, blurred vision, fatigue.",
+    "symptom_sentence_ur": "علامات میں زیادہ پیاس لگنا, بار بار پیشاب آنا, دھندلا دیکھنا, تھکن شامل ہیں۔",
+    "symptoms_en": [
+      "increased thirst",
+      "frequent urination",
+      "blurred vision",
+      "fatigue"
+    ],
+    "symptoms_ur": [
+      "زیادہ پیاس لگنا",
+      "بار بار پیشاب آنا",
+      "دھندلا دیکھنا",
+      "تھکن"
+    ]
+  },
+  {
+    "disease": "Diabetes",
+    "symptom_sentence_en": "Symptoms include increased thirst, fatigue.",
+    "symptom_sentence_ur": "مریض کو زیادہ پیاس لگنا, تھکن کی شکایت ہے۔",
+    "symptoms_en": [
+      "increased thirst",
+      "fatigue"
+    ],
+    "symptoms_ur": [
+      "زیادہ پیاس لگنا",
+      "تھکن"
+    ]
+  },
+  {
+    "disease": "Diabetes",
+    "symptom_sentence_en": "The patient is suffering from increased thirst, frequent urination, blurred vision.",
+    "symptom_sentence_ur": "زیادہ پیاس لگنا, بار بار پیشاب آنا, دھندلا دیکھنا کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "increased thirst",
+      "frequent urination",
+      "blurred vision"
+    ],
+    "symptoms_ur": [
+      "زیادہ پیاس لگنا",
+      "بار بار پیشاب آنا",
+      "دھندلا دیکھنا"
+    ]
+  },
+  {
+    "disease": "Hypertension",
+    "symptom_sentence_en": "Symptoms include dizziness, chest pain, blurred vision, headache.",
+    "symptom_sentence_ur": "علامات میں چکر آنا, سینے میں درد, دھندلا دیکھنا, سر درد شامل ہیں۔",
+    "symptoms_en": [
+      "dizziness",
+      "chest pain",
+      "blurred vision",
+      "headache"
+    ],
+    "symptoms_ur": [
+      "چکر آنا",
+      "سینے میں درد",
+      "دھندلا دیکھنا",
+      "سر درد"
+    ]
+  },
+  {
+    "disease": "Hypertension",
+    "symptom_sentence_en": "Symptoms include blurred vision, headache.",
+    "symptom_sentence_ur": "دھندلا دیکھنا, سر درد کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "blurred vision",
+      "headache"
+    ],
+    "symptoms_ur": [
+      "دھندلا دیکھنا",
+      "سر درد"
+    ]
+  },
+  {
+    "disease": "Hypertension",
+    "symptom_sentence_en": "Symptoms include blurred vision, dizziness, chest pain, headache.",
+    "symptom_sentence_ur": "دھندلا دیکھنا, چکر آنا, سینے میں درد, سر درد کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "blurred vision",
+      "dizziness",
+      "chest pain",
+      "headache"
+    ],
+    "symptoms_ur": [
+      "دھندلا دیکھنا",
+      "چکر آنا",
+      "سینے میں درد",
+      "سر درد"
+    ]
+  },
+  {
+    "disease": "Hypertension",
+    "symptom_sentence_en": "Reported signs are chest pain, dizziness, headache, blurred vision.",
+    "symptom_sentence_ur": "مریض کو سینے میں درد, چکر آنا, سر درد, دھندلا دیکھنا محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "chest pain",
+      "dizziness",
+      "headache",
+      "blurred vision"
+    ],
+    "symptoms_ur": [
+      "سینے میں درد",
+      "چکر آنا",
+      "سر درد",
+      "دھندلا دیکھنا"
+    ]
+  },
+  {
+    "disease": "Hypertension",
+    "symptom_sentence_en": "Complaints of blurred vision, dizziness, chest pain were observed.",
+    "symptom_sentence_ur": "مریض کو دھندلا دیکھنا, چکر آنا, سینے میں درد کی شکایت ہے۔",
+    "symptoms_en": [
+      "blurred vision",
+      "dizziness",
+      "chest pain"
+    ],
+    "symptoms_ur": [
+      "دھندلا دیکھنا",
+      "چکر آنا",
+      "سینے میں درد"
+    ]
+  },
+  {
+    "disease": "Hypertension",
+    "symptom_sentence_en": "Reported signs are blurred vision, chest pain.",
+    "symptom_sentence_ur": "دھندلا دیکھنا, سینے میں درد کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "blurred vision",
+      "chest pain"
+    ],
+    "symptoms_ur": [
+      "دھندلا دیکھنا",
+      "سینے میں درد"
+    ]
+  },
+  {
+    "disease": "Hypertension",
+    "symptom_sentence_en": "The individual is experiencing dizziness, chest pain, blurred vision, headache.",
+    "symptom_sentence_ur": "چکر آنا, سینے میں درد, دھندلا دیکھنا, سر درد کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "dizziness",
+      "chest pain",
+      "blurred vision",
+      "headache"
+    ],
+    "symptoms_ur": [
+      "چکر آنا",
+      "سینے میں درد",
+      "دھندلا دیکھنا",
+      "سر درد"
+    ]
+  },
+  {
+    "disease": "Hypertension",
+    "symptom_sentence_en": "The individual is experiencing chest pain, dizziness, blurred vision.",
+    "symptom_sentence_ur": "سینے میں درد, چکر آنا, دھندلا دیکھنا کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "chest pain",
+      "dizziness",
+      "blurred vision"
+    ],
+    "symptoms_ur": [
+      "سینے میں درد",
+      "چکر آنا",
+      "دھندلا دیکھنا"
+    ]
+  },
+  {
+    "disease": "Hypertension",
+    "symptom_sentence_en": "Reported signs are dizziness, chest pain.",
+    "symptom_sentence_ur": "مریض کو چکر آنا, سینے میں درد کی شکایت ہے۔",
+    "symptoms_en": [
+      "dizziness",
+      "chest pain"
+    ],
+    "symptoms_ur": [
+      "چکر آنا",
+      "سینے میں درد"
+    ]
+  },
+  {
+    "disease": "Hypertension",
+    "symptom_sentence_en": "The patient is suffering from chest pain, headache, blurred vision, dizziness.",
+    "symptom_sentence_ur": "سینے میں درد, سر درد, دھندلا دیکھنا, چکر آنا کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "chest pain",
+      "headache",
+      "blurred vision",
+      "dizziness"
+    ],
+    "symptoms_ur": [
+      "سینے میں درد",
+      "سر درد",
+      "دھندلا دیکھنا",
+      "چکر آنا"
+    ]
+  },
+  {
+    "disease": "Hepatitis A",
+    "symptom_sentence_en": "The patient is suffering from fever, fatigue, yellow skin.",
+    "symptom_sentence_ur": "بخار, تھکن, زرد جلد کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "fever",
+      "fatigue",
+      "yellow skin"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "تھکن",
+      "زرد جلد"
+    ]
+  },
+  {
+    "disease": "Hepatitis A",
+    "symptom_sentence_en": "The patient is suffering from yellow skin, fever.",
+    "symptom_sentence_ur": "مریض کو زرد جلد, بخار محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "yellow skin",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "زرد جلد",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "Hepatitis A",
+    "symptom_sentence_en": "Complaints of loss of appetite, yellow skin, fever, fatigue were observed.",
+    "symptom_sentence_ur": "مریض کو بھوک نہ لگنا, زرد جلد, بخار, تھکن کی شکایت ہے۔",
+    "symptoms_en": [
+      "loss of appetite",
+      "yellow skin",
+      "fever",
+      "fatigue"
+    ],
+    "symptoms_ur": [
+      "بھوک نہ لگنا",
+      "زرد جلد",
+      "بخار",
+      "تھکن"
+    ]
+  },
+  {
+    "disease": "Hepatitis A",
+    "symptom_sentence_en": "Symptoms include fever, yellow skin, fatigue, loss of appetite.",
+    "symptom_sentence_ur": "مریض کو بخار, زرد جلد, تھکن, بھوک نہ لگنا محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "fever",
+      "yellow skin",
+      "fatigue",
+      "loss of appetite"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "زرد جلد",
+      "تھکن",
+      "بھوک نہ لگنا"
+    ]
+  },
+  {
+    "disease": "Hepatitis A",
+    "symptom_sentence_en": "The individual is experiencing loss of appetite, fever.",
+    "symptom_sentence_ur": "بھوک نہ لگنا, بخار کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "loss of appetite",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "بھوک نہ لگنا",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "Hepatitis A",
+    "symptom_sentence_en": "Reported signs are yellow skin, fever, loss of appetite.",
+    "symptom_sentence_ur": "مریض کو زرد جلد, بخار, بھوک نہ لگنا محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "yellow skin",
+      "fever",
+      "loss of appetite"
+    ],
+    "symptoms_ur": [
+      "زرد جلد",
+      "بخار",
+      "بھوک نہ لگنا"
+    ]
+  },
+  {
+    "disease": "Hepatitis A",
+    "symptom_sentence_en": "The patient is suffering from fatigue, fever, loss of appetite.",
+    "symptom_sentence_ur": "مریض کو تھکن, بخار, بھوک نہ لگنا کی شکایت ہے۔",
+    "symptoms_en": [
+      "fatigue",
+      "fever",
+      "loss of appetite"
+    ],
+    "symptoms_ur": [
+      "تھکن",
+      "بخار",
+      "بھوک نہ لگنا"
+    ]
+  },
+  {
+    "disease": "Hepatitis A",
+    "symptom_sentence_en": "Complaints of fatigue, fever, yellow skin, loss of appetite were observed.",
+    "symptom_sentence_ur": "مریض کو تھکن, بخار, زرد جلد, بھوک نہ لگنا کی شکایت ہے۔",
+    "symptoms_en": [
+      "fatigue",
+      "fever",
+      "yellow skin",
+      "loss of appetite"
+    ],
+    "symptoms_ur": [
+      "تھکن",
+      "بخار",
+      "زرد جلد",
+      "بھوک نہ لگنا"
+    ]
+  },
+  {
+    "disease": "Hepatitis A",
+    "symptom_sentence_en": "The individual is experiencing fatigue, fever.",
+    "symptom_sentence_ur": "مریض کو تھکن, بخار کی شکایت ہے۔",
+    "symptoms_en": [
+      "fatigue",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "تھکن",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "Hepatitis A",
+    "symptom_sentence_en": "The patient is suffering from fatigue, loss of appetite.",
+    "symptom_sentence_ur": "علامات میں تھکن, بھوک نہ لگنا شامل ہیں۔",
+    "symptoms_en": [
+      "fatigue",
+      "loss of appetite"
+    ],
+    "symptoms_ur": [
+      "تھکن",
+      "بھوک نہ لگنا"
+    ]
+  },
+  {
+    "disease": "Tuberculosis",
+    "symptom_sentence_en": "The patient is suffering from persistent cough, fever, night sweats, weight loss.",
+    "symptom_sentence_ur": "مسلسل کھانسی, بخار, رات کو پسینہ آنا, وزن میں کمی کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "persistent cough",
+      "fever",
+      "night sweats",
+      "weight loss"
+    ],
+    "symptoms_ur": [
+      "مسلسل کھانسی",
+      "بخار",
+      "رات کو پسینہ آنا",
+      "وزن میں کمی"
+    ]
+  },
+  {
+    "disease": "Tuberculosis",
+    "symptom_sentence_en": "The individual is experiencing fever, weight loss, night sweats.",
+    "symptom_sentence_ur": "بخار, وزن میں کمی, رات کو پسینہ آنا کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "fever",
+      "weight loss",
+      "night sweats"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "وزن میں کمی",
+      "رات کو پسینہ آنا"
+    ]
+  },
+  {
+    "disease": "Tuberculosis",
+    "symptom_sentence_en": "Reported signs are fever, night sweats.",
+    "symptom_sentence_ur": "مریض کو بخار, رات کو پسینہ آنا محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "fever",
+      "night sweats"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "رات کو پسینہ آنا"
+    ]
+  },
+  {
+    "disease": "Tuberculosis",
+    "symptom_sentence_en": "Symptoms include night sweats, fever, persistent cough.",
+    "symptom_sentence_ur": "رات کو پسینہ آنا, بخار, مسلسل کھانسی کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "night sweats",
+      "fever",
+      "persistent cough"
+    ],
+    "symptoms_ur": [
+      "رات کو پسینہ آنا",
+      "بخار",
+      "مسلسل کھانسی"
+    ]
+  },
+  {
+    "disease": "Tuberculosis",
+    "symptom_sentence_en": "The patient is suffering from persistent cough, fever, weight loss, night sweats.",
+    "symptom_sentence_ur": "مسلسل کھانسی, بخار, وزن میں کمی, رات کو پسینہ آنا کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "persistent cough",
+      "fever",
+      "weight loss",
+      "night sweats"
+    ],
+    "symptoms_ur": [
+      "مسلسل کھانسی",
+      "بخار",
+      "وزن میں کمی",
+      "رات کو پسینہ آنا"
+    ]
+  },
+  {
+    "disease": "Tuberculosis",
+    "symptom_sentence_en": "Symptoms include fever, night sweats, weight loss, persistent cough.",
+    "symptom_sentence_ur": "بخار, رات کو پسینہ آنا, وزن میں کمی, مسلسل کھانسی کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "fever",
+      "night sweats",
+      "weight loss",
+      "persistent cough"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "رات کو پسینہ آنا",
+      "وزن میں کمی",
+      "مسلسل کھانسی"
+    ]
+  },
+  {
+    "disease": "Tuberculosis",
+    "symptom_sentence_en": "Symptoms include fever, persistent cough, weight loss, night sweats.",
+    "symptom_sentence_ur": "مریض کو بخار, مسلسل کھانسی, وزن میں کمی, رات کو پسینہ آنا کی شکایت ہے۔",
+    "symptoms_en": [
+      "fever",
+      "persistent cough",
+      "weight loss",
+      "night sweats"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "مسلسل کھانسی",
+      "وزن میں کمی",
+      "رات کو پسینہ آنا"
+    ]
+  },
+  {
+    "disease": "Tuberculosis",
+    "symptom_sentence_en": "The individual is experiencing persistent cough, weight loss.",
+    "symptom_sentence_ur": "مسلسل کھانسی, وزن میں کمی کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "persistent cough",
+      "weight loss"
+    ],
+    "symptoms_ur": [
+      "مسلسل کھانسی",
+      "وزن میں کمی"
+    ]
+  },
+  {
+    "disease": "Tuberculosis",
+    "symptom_sentence_en": "The patient is suffering from night sweats, weight loss, fever, persistent cough.",
+    "symptom_sentence_ur": "علامات میں رات کو پسینہ آنا, وزن میں کمی, بخار, مسلسل کھانسی شامل ہیں۔",
+    "symptoms_en": [
+      "night sweats",
+      "weight loss",
+      "fever",
+      "persistent cough"
+    ],
+    "symptoms_ur": [
+      "رات کو پسینہ آنا",
+      "وزن میں کمی",
+      "بخار",
+      "مسلسل کھانسی"
+    ]
+  },
+  {
+    "disease": "Tuberculosis",
+    "symptom_sentence_en": "The individual is experiencing fever, night sweats, weight loss.",
+    "symptom_sentence_ur": "مریض کو بخار, رات کو پسینہ آنا, وزن میں کمی محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "fever",
+      "night sweats",
+      "weight loss"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "رات کو پسینہ آنا",
+      "وزن میں کمی"
+    ]
+  },
+  {
+    "disease": "Rheumatoid Arthritis",
+    "symptom_sentence_en": "Complaints of fatigue, joint pain, swelling, morning stiffness were observed.",
+    "symptom_sentence_ur": "تھکن, جوڑوں کا درد, سوجن, صبح کی اکڑن کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "fatigue",
+      "joint pain",
+      "swelling",
+      "morning stiffness"
+    ],
+    "symptoms_ur": [
+      "تھکن",
+      "جوڑوں کا درد",
+      "سوجن",
+      "صبح کی اکڑن"
+    ]
+  },
+  {
+    "disease": "Rheumatoid Arthritis",
+    "symptom_sentence_en": "The patient is suffering from morning stiffness, swelling.",
+    "symptom_sentence_ur": "مریض کو صبح کی اکڑن, سوجن کی شکایت ہے۔",
+    "symptoms_en": [
+      "morning stiffness",
+      "swelling"
+    ],
+    "symptoms_ur": [
+      "صبح کی اکڑن",
+      "سوجن"
+    ]
+  },
+  {
+    "disease": "Rheumatoid Arthritis",
+    "symptom_sentence_en": "The patient is suffering from swelling, morning stiffness, fatigue, joint pain.",
+    "symptom_sentence_ur": "مریض کو سوجن, صبح کی اکڑن, تھکن, جوڑوں کا درد کی شکایت ہے۔",
+    "symptoms_en": [
+      "swelling",
+      "morning stiffness",
+      "fatigue",
+      "joint pain"
+    ],
+    "symptoms_ur": [
+      "سوجن",
+      "صبح کی اکڑن",
+      "تھکن",
+      "جوڑوں کا درد"
+    ]
+  },
+  {
+    "disease": "Rheumatoid Arthritis",
+    "symptom_sentence_en": "The individual is experiencing morning stiffness, fatigue.",
+    "symptom_sentence_ur": "صبح کی اکڑن, تھکن کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "morning stiffness",
+      "fatigue"
+    ],
+    "symptoms_ur": [
+      "صبح کی اکڑن",
+      "تھکن"
+    ]
+  },
+  {
+    "disease": "Rheumatoid Arthritis",
+    "symptom_sentence_en": "The individual is experiencing fatigue, joint pain, morning stiffness.",
+    "symptom_sentence_ur": "مریض کو تھکن, جوڑوں کا درد, صبح کی اکڑن محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "fatigue",
+      "joint pain",
+      "morning stiffness"
+    ],
+    "symptoms_ur": [
+      "تھکن",
+      "جوڑوں کا درد",
+      "صبح کی اکڑن"
+    ]
+  },
+  {
+    "disease": "Rheumatoid Arthritis",
+    "symptom_sentence_en": "The patient is suffering from morning stiffness, swelling.",
+    "symptom_sentence_ur": "مریض کو صبح کی اکڑن, سوجن کی شکایت ہے۔",
+    "symptoms_en": [
+      "morning stiffness",
+      "swelling"
+    ],
+    "symptoms_ur": [
+      "صبح کی اکڑن",
+      "سوجن"
+    ]
+  },
+  {
+    "disease": "Rheumatoid Arthritis",
+    "symptom_sentence_en": "The individual is experiencing morning stiffness, joint pain.",
+    "symptom_sentence_ur": "صبح کی اکڑن, جوڑوں کا درد کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "morning stiffness",
+      "joint pain"
+    ],
+    "symptoms_ur": [
+      "صبح کی اکڑن",
+      "جوڑوں کا درد"
+    ]
+  },
+  {
+    "disease": "Rheumatoid Arthritis",
+    "symptom_sentence_en": "Reported signs are swelling, morning stiffness.",
+    "symptom_sentence_ur": "مریض کو سوجن, صبح کی اکڑن محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "swelling",
+      "morning stiffness"
+    ],
+    "symptoms_ur": [
+      "سوجن",
+      "صبح کی اکڑن"
+    ]
+  },
+  {
+    "disease": "Rheumatoid Arthritis",
+    "symptom_sentence_en": "Symptoms include fatigue, joint pain.",
+    "symptom_sentence_ur": "علامات میں تھکن, جوڑوں کا درد شامل ہیں۔",
+    "symptoms_en": [
+      "fatigue",
+      "joint pain"
+    ],
+    "symptoms_ur": [
+      "تھکن",
+      "جوڑوں کا درد"
+    ]
+  },
+  {
+    "disease": "Rheumatoid Arthritis",
+    "symptom_sentence_en": "Complaints of fatigue, morning stiffness, joint pain were observed.",
+    "symptom_sentence_ur": "علامات میں تھکن, صبح کی اکڑن, جوڑوں کا درد شامل ہیں۔",
+    "symptoms_en": [
+      "fatigue",
+      "morning stiffness",
+      "joint pain"
+    ],
+    "symptoms_ur": [
+      "تھکن",
+      "صبح کی اکڑن",
+      "جوڑوں کا درد"
+    ]
+  },
+  {
+    "disease": "Migraine",
+    "symptom_sentence_en": "Symptoms include severe headache, nausea, sensitivity to light, blurred vision.",
+    "symptom_sentence_ur": "علامات میں شدید سر درد, متلی, روشنی کی حساسیت, دھندلا دیکھنا شامل ہیں۔",
+    "symptoms_en": [
+      "severe headache",
+      "nausea",
+      "sensitivity to light",
+      "blurred vision"
+    ],
+    "symptoms_ur": [
+      "شدید سر درد",
+      "متلی",
+      "روشنی کی حساسیت",
+      "دھندلا دیکھنا"
+    ]
+  },
+  {
+    "disease": "Migraine",
+    "symptom_sentence_en": "The patient is suffering from sensitivity to light, nausea, blurred vision.",
+    "symptom_sentence_ur": "روشنی کی حساسیت, متلی, دھندلا دیکھنا کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "sensitivity to light",
+      "nausea",
+      "blurred vision"
+    ],
+    "symptoms_ur": [
+      "روشنی کی حساسیت",
+      "متلی",
+      "دھندلا دیکھنا"
+    ]
+  },
+  {
+    "disease": "Migraine",
+    "symptom_sentence_en": "The patient is suffering from blurred vision, sensitivity to light, severe headache.",
+    "symptom_sentence_ur": "دھندلا دیکھنا, روشنی کی حساسیت, شدید سر درد کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "blurred vision",
+      "sensitivity to light",
+      "severe headache"
+    ],
+    "symptoms_ur": [
+      "دھندلا دیکھنا",
+      "روشنی کی حساسیت",
+      "شدید سر درد"
+    ]
+  },
+  {
+    "disease": "Migraine",
+    "symptom_sentence_en": "Symptoms include sensitivity to light, blurred vision, nausea, severe headache.",
+    "symptom_sentence_ur": "روشنی کی حساسیت, دھندلا دیکھنا, متلی, شدید سر درد کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "sensitivity to light",
+      "blurred vision",
+      "nausea",
+      "severe headache"
+    ],
+    "symptoms_ur": [
+      "روشنی کی حساسیت",
+      "دھندلا دیکھنا",
+      "متلی",
+      "شدید سر درد"
+    ]
+  },
+  {
+    "disease": "Migraine",
+    "symptom_sentence_en": "Complaints of blurred vision, severe headache, sensitivity to light were observed.",
+    "symptom_sentence_ur": "مریض کو دھندلا دیکھنا, شدید سر درد, روشنی کی حساسیت محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "blurred vision",
+      "severe headache",
+      "sensitivity to light"
+    ],
+    "symptoms_ur": [
+      "دھندلا دیکھنا",
+      "شدید سر درد",
+      "روشنی کی حساسیت"
+    ]
+  },
+  {
+    "disease": "Migraine",
+    "symptom_sentence_en": "The patient is suffering from sensitivity to light, severe headache.",
+    "symptom_sentence_ur": "مریض کو روشنی کی حساسیت, شدید سر درد کی شکایت ہے۔",
+    "symptoms_en": [
+      "sensitivity to light",
+      "severe headache"
+    ],
+    "symptoms_ur": [
+      "روشنی کی حساسیت",
+      "شدید سر درد"
+    ]
+  },
+  {
+    "disease": "Migraine",
+    "symptom_sentence_en": "Complaints of severe headache, nausea, sensitivity to light, blurred vision were observed.",
+    "symptom_sentence_ur": "علامات میں شدید سر درد, متلی, روشنی کی حساسیت, دھندلا دیکھنا شامل ہیں۔",
+    "symptoms_en": [
+      "severe headache",
+      "nausea",
+      "sensitivity to light",
+      "blurred vision"
+    ],
+    "symptoms_ur": [
+      "شدید سر درد",
+      "متلی",
+      "روشنی کی حساسیت",
+      "دھندلا دیکھنا"
+    ]
+  },
+  {
+    "disease": "Migraine",
+    "symptom_sentence_en": "The individual is experiencing sensitivity to light, blurred vision, nausea.",
+    "symptom_sentence_ur": "مریض کو روشنی کی حساسیت, دھندلا دیکھنا, متلی کی شکایت ہے۔",
+    "symptoms_en": [
+      "sensitivity to light",
+      "blurred vision",
+      "nausea"
+    ],
+    "symptoms_ur": [
+      "روشنی کی حساسیت",
+      "دھندلا دیکھنا",
+      "متلی"
+    ]
+  },
+  {
+    "disease": "Migraine",
+    "symptom_sentence_en": "Complaints of blurred vision, nausea, sensitivity to light were observed.",
+    "symptom_sentence_ur": "علامات میں دھندلا دیکھنا, متلی, روشنی کی حساسیت شامل ہیں۔",
+    "symptoms_en": [
+      "blurred vision",
+      "nausea",
+      "sensitivity to light"
+    ],
+    "symptoms_ur": [
+      "دھندلا دیکھنا",
+      "متلی",
+      "روشنی کی حساسیت"
+    ]
+  },
+  {
+    "disease": "Migraine",
+    "symptom_sentence_en": "The patient is suffering from sensitivity to light, severe headache, blurred vision.",
+    "symptom_sentence_ur": "روشنی کی حساسیت, شدید سر درد, دھندلا دیکھنا کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "sensitivity to light",
+      "severe headache",
+      "blurred vision"
+    ],
+    "symptoms_ur": [
+      "روشنی کی حساسیت",
+      "شدید سر درد",
+      "دھندلا دیکھنا"
+    ]
+  },
+  {
+    "disease": "Chickenpox",
+    "symptom_sentence_en": "The individual is experiencing loss of appetite, itchy rash, fever.",
+    "symptom_sentence_ur": "مریض کو بھوک نہ لگنا, خارش والا دانے, بخار محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "loss of appetite",
+      "itchy rash",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "بھوک نہ لگنا",
+      "خارش والا دانے",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "Chickenpox",
+    "symptom_sentence_en": "The patient is suffering from itchy rash, loss of appetite, fever, fatigue.",
+    "symptom_sentence_ur": "علامات میں خارش والا دانے, بھوک نہ لگنا, بخار, تھکن شامل ہیں۔",
+    "symptoms_en": [
+      "itchy rash",
+      "loss of appetite",
+      "fever",
+      "fatigue"
+    ],
+    "symptoms_ur": [
+      "خارش والا دانے",
+      "بھوک نہ لگنا",
+      "بخار",
+      "تھکن"
+    ]
+  },
+  {
+    "disease": "Chickenpox",
+    "symptom_sentence_en": "Symptoms include loss of appetite, fever.",
+    "symptom_sentence_ur": "مریض کو بھوک نہ لگنا, بخار محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "loss of appetite",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "بھوک نہ لگنا",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "Chickenpox",
+    "symptom_sentence_en": "Reported signs are itchy rash, fatigue, loss of appetite.",
+    "symptom_sentence_ur": "مریض کو خارش والا دانے, تھکن, بھوک نہ لگنا محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "itchy rash",
+      "fatigue",
+      "loss of appetite"
+    ],
+    "symptoms_ur": [
+      "خارش والا دانے",
+      "تھکن",
+      "بھوک نہ لگنا"
+    ]
+  },
+  {
+    "disease": "Chickenpox",
+    "symptom_sentence_en": "Reported signs are fever, loss of appetite.",
+    "symptom_sentence_ur": "بخار, بھوک نہ لگنا کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "fever",
+      "loss of appetite"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "بھوک نہ لگنا"
+    ]
+  },
+  {
+    "disease": "Chickenpox",
+    "symptom_sentence_en": "Symptoms include loss of appetite, itchy rash.",
+    "symptom_sentence_ur": "مریض کو بھوک نہ لگنا, خارش والا دانے کی شکایت ہے۔",
+    "symptoms_en": [
+      "loss of appetite",
+      "itchy rash"
+    ],
+    "symptoms_ur": [
+      "بھوک نہ لگنا",
+      "خارش والا دانے"
+    ]
+  },
+  {
+    "disease": "Chickenpox",
+    "symptom_sentence_en": "The patient is suffering from itchy rash, loss of appetite.",
+    "symptom_sentence_ur": "علامات میں خارش والا دانے, بھوک نہ لگنا شامل ہیں۔",
+    "symptoms_en": [
+      "itchy rash",
+      "loss of appetite"
+    ],
+    "symptoms_ur": [
+      "خارش والا دانے",
+      "بھوک نہ لگنا"
+    ]
+  },
+  {
+    "disease": "Chickenpox",
+    "symptom_sentence_en": "The patient is suffering from fever, fatigue, loss of appetite.",
+    "symptom_sentence_ur": "مریض کو بخار, تھکن, بھوک نہ لگنا کی شکایت ہے۔",
+    "symptoms_en": [
+      "fever",
+      "fatigue",
+      "loss of appetite"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "تھکن",
+      "بھوک نہ لگنا"
+    ]
+  },
+  {
+    "disease": "Chickenpox",
+    "symptom_sentence_en": "The individual is experiencing itchy rash, fatigue, loss of appetite.",
+    "symptom_sentence_ur": "خارش والا دانے, تھکن, بھوک نہ لگنا کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "itchy rash",
+      "fatigue",
+      "loss of appetite"
+    ],
+    "symptoms_ur": [
+      "خارش والا دانے",
+      "تھکن",
+      "بھوک نہ لگنا"
+    ]
+  },
+  {
+    "disease": "Chickenpox",
+    "symptom_sentence_en": "Reported signs are loss of appetite, fever, fatigue, itchy rash.",
+    "symptom_sentence_ur": "بھوک نہ لگنا, بخار, تھکن, خارش والا دانے کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "loss of appetite",
+      "fever",
+      "fatigue",
+      "itchy rash"
+    ],
+    "symptoms_ur": [
+      "بھوک نہ لگنا",
+      "بخار",
+      "تھکن",
+      "خارش والا دانے"
+    ]
+  },
+  {
+    "disease": "Gastroenteritis",
+    "symptom_sentence_en": "Reported signs are fever, abdominal cramps.",
+    "symptom_sentence_ur": "علامات میں بخار, پیٹ میں مروڑ شامل ہیں۔",
+    "symptoms_en": [
+      "fever",
+      "abdominal cramps"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "پیٹ میں مروڑ"
+    ]
+  },
+  {
+    "disease": "Gastroenteritis",
+    "symptom_sentence_en": "The patient is suffering from fever, abdominal cramps, diarrhea.",
+    "symptom_sentence_ur": "بخار, پیٹ میں مروڑ, دست کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "fever",
+      "abdominal cramps",
+      "diarrhea"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "پیٹ میں مروڑ",
+      "دست"
+    ]
+  },
+  {
+    "disease": "Gastroenteritis",
+    "symptom_sentence_en": "Symptoms include diarrhea, fever.",
+    "symptom_sentence_ur": "مریض کو دست, بخار محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "diarrhea",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "دست",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "Gastroenteritis",
+    "symptom_sentence_en": "The individual is experiencing abdominal cramps, diarrhea, fever, vomiting.",
+    "symptom_sentence_ur": "علامات میں پیٹ میں مروڑ, دست, بخار, قے شامل ہیں۔",
+    "symptoms_en": [
+      "abdominal cramps",
+      "diarrhea",
+      "fever",
+      "vomiting"
+    ],
+    "symptoms_ur": [
+      "پیٹ میں مروڑ",
+      "دست",
+      "بخار",
+      "قے"
+    ]
+  },
+  {
+    "disease": "Gastroenteritis",
+    "symptom_sentence_en": "Reported signs are vomiting, fever, diarrhea.",
+    "symptom_sentence_ur": "قے, بخار, دست کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "vomiting",
+      "fever",
+      "diarrhea"
+    ],
+    "symptoms_ur": [
+      "قے",
+      "بخار",
+      "دست"
+    ]
+  },
+  {
+    "disease": "Gastroenteritis",
+    "symptom_sentence_en": "The individual is experiencing vomiting, fever.",
+    "symptom_sentence_ur": "علامات میں قے, بخار شامل ہیں۔",
+    "symptoms_en": [
+      "vomiting",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "قے",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "Gastroenteritis",
+    "symptom_sentence_en": "Reported signs are diarrhea, abdominal cramps, fever.",
+    "symptom_sentence_ur": "دست, پیٹ میں مروڑ, بخار کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "diarrhea",
+      "abdominal cramps",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "دست",
+      "پیٹ میں مروڑ",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "Gastroenteritis",
+    "symptom_sentence_en": "Symptoms include diarrhea, abdominal cramps.",
+    "symptom_sentence_ur": "دست, پیٹ میں مروڑ کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "diarrhea",
+      "abdominal cramps"
+    ],
+    "symptoms_ur": [
+      "دست",
+      "پیٹ میں مروڑ"
+    ]
+  },
+  {
+    "disease": "Gastroenteritis",
+    "symptom_sentence_en": "The individual is experiencing vomiting, abdominal cramps, fever.",
+    "symptom_sentence_ur": "قے, پیٹ میں مروڑ, بخار کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "vomiting",
+      "abdominal cramps",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "قے",
+      "پیٹ میں مروڑ",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "Gastroenteritis",
+    "symptom_sentence_en": "Symptoms include vomiting, abdominal cramps, fever, diarrhea.",
+    "symptom_sentence_ur": "قے, پیٹ میں مروڑ, بخار, دست کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "vomiting",
+      "abdominal cramps",
+      "fever",
+      "diarrhea"
+    ],
+    "symptoms_ur": [
+      "قے",
+      "پیٹ میں مروڑ",
+      "بخار",
+      "دست"
+    ]
+  },
+  {
+    "disease": "Appendicitis",
+    "symptom_sentence_en": "Complaints of loss of appetite, nausea, abdominal pain, vomiting were observed.",
+    "symptom_sentence_ur": "مریض کو بھوک نہ لگنا, متلی, پیٹ میں درد, قے کی شکایت ہے۔",
+    "symptoms_en": [
+      "loss of appetite",
+      "nausea",
+      "abdominal pain",
+      "vomiting"
+    ],
+    "symptoms_ur": [
+      "بھوک نہ لگنا",
+      "متلی",
+      "پیٹ میں درد",
+      "قے"
+    ]
+  },
+  {
+    "disease": "Appendicitis",
+    "symptom_sentence_en": "The individual is experiencing vomiting, abdominal pain.",
+    "symptom_sentence_ur": "قے, پیٹ میں درد کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "vomiting",
+      "abdominal pain"
+    ],
+    "symptoms_ur": [
+      "قے",
+      "پیٹ میں درد"
+    ]
+  },
+  {
+    "disease": "Appendicitis",
+    "symptom_sentence_en": "Symptoms include nausea, abdominal pain, loss of appetite.",
+    "symptom_sentence_ur": "متلی, پیٹ میں درد, بھوک نہ لگنا کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "nausea",
+      "abdominal pain",
+      "loss of appetite"
+    ],
+    "symptoms_ur": [
+      "متلی",
+      "پیٹ میں درد",
+      "بھوک نہ لگنا"
+    ]
+  },
+  {
+    "disease": "Appendicitis",
+    "symptom_sentence_en": "Reported signs are abdominal pain, nausea.",
+    "symptom_sentence_ur": "پیٹ میں درد, متلی کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "abdominal pain",
+      "nausea"
+    ],
+    "symptoms_ur": [
+      "پیٹ میں درد",
+      "متلی"
+    ]
+  },
+  {
+    "disease": "Appendicitis",
+    "symptom_sentence_en": "Complaints of loss of appetite, vomiting were observed.",
+    "symptom_sentence_ur": "مریض کو بھوک نہ لگنا, قے محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "loss of appetite",
+      "vomiting"
+    ],
+    "symptoms_ur": [
+      "بھوک نہ لگنا",
+      "قے"
+    ]
+  },
+  {
+    "disease": "Appendicitis",
+    "symptom_sentence_en": "Symptoms include loss of appetite, abdominal pain.",
+    "symptom_sentence_ur": "بھوک نہ لگنا, پیٹ میں درد کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "loss of appetite",
+      "abdominal pain"
+    ],
+    "symptoms_ur": [
+      "بھوک نہ لگنا",
+      "پیٹ میں درد"
+    ]
+  },
+  {
+    "disease": "Appendicitis",
+    "symptom_sentence_en": "Complaints of loss of appetite, abdominal pain, nausea, vomiting were observed.",
+    "symptom_sentence_ur": "مریض کو بھوک نہ لگنا, پیٹ میں درد, متلی, قے کی شکایت ہے۔",
+    "symptoms_en": [
+      "loss of appetite",
+      "abdominal pain",
+      "nausea",
+      "vomiting"
+    ],
+    "symptoms_ur": [
+      "بھوک نہ لگنا",
+      "پیٹ میں درد",
+      "متلی",
+      "قے"
+    ]
+  },
+  {
+    "disease": "Appendicitis",
+    "symptom_sentence_en": "The patient is suffering from loss of appetite, nausea, abdominal pain.",
+    "symptom_sentence_ur": "مریض کو بھوک نہ لگنا, متلی, پیٹ میں درد کی شکایت ہے۔",
+    "symptoms_en": [
+      "loss of appetite",
+      "nausea",
+      "abdominal pain"
+    ],
+    "symptoms_ur": [
+      "بھوک نہ لگنا",
+      "متلی",
+      "پیٹ میں درد"
+    ]
+  },
+  {
+    "disease": "Appendicitis",
+    "symptom_sentence_en": "The patient is suffering from loss of appetite, nausea.",
+    "symptom_sentence_ur": "مریض کو بھوک نہ لگنا, متلی کی شکایت ہے۔",
+    "symptoms_en": [
+      "loss of appetite",
+      "nausea"
+    ],
+    "symptoms_ur": [
+      "بھوک نہ لگنا",
+      "متلی"
+    ]
+  },
+  {
+    "disease": "Appendicitis",
+    "symptom_sentence_en": "The individual is experiencing vomiting, loss of appetite, abdominal pain, nausea.",
+    "symptom_sentence_ur": "مریض کو قے, بھوک نہ لگنا, پیٹ میں درد, متلی کی شکایت ہے۔",
+    "symptoms_en": [
+      "vomiting",
+      "loss of appetite",
+      "abdominal pain",
+      "nausea"
+    ],
+    "symptoms_ur": [
+      "قے",
+      "بھوک نہ لگنا",
+      "پیٹ میں درد",
+      "متلی"
+    ]
+  },
+  {
+    "disease": "Sinusitis",
+    "symptom_sentence_en": "The patient is suffering from nasal congestion, facial pain, fever, headache.",
+    "symptom_sentence_ur": "مریض کو ناک بند ہونا, چہرے کا درد, بخار, سر درد محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "nasal congestion",
+      "facial pain",
+      "fever",
+      "headache"
+    ],
+    "symptoms_ur": [
+      "ناک بند ہونا",
+      "چہرے کا درد",
+      "بخار",
+      "سر درد"
+    ]
+  },
+  {
+    "disease": "Sinusitis",
+    "symptom_sentence_en": "The individual is experiencing fever, facial pain, headache.",
+    "symptom_sentence_ur": "علامات میں بخار, چہرے کا درد, سر درد شامل ہیں۔",
+    "symptoms_en": [
+      "fever",
+      "facial pain",
+      "headache"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "چہرے کا درد",
+      "سر درد"
+    ]
+  },
+  {
+    "disease": "Sinusitis",
+    "symptom_sentence_en": "The individual is experiencing nasal congestion, fever, headache, facial pain.",
+    "symptom_sentence_ur": "ناک بند ہونا, بخار, سر درد, چہرے کا درد کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "nasal congestion",
+      "fever",
+      "headache",
+      "facial pain"
+    ],
+    "symptoms_ur": [
+      "ناک بند ہونا",
+      "بخار",
+      "سر درد",
+      "چہرے کا درد"
+    ]
+  },
+  {
+    "disease": "Sinusitis",
+    "symptom_sentence_en": "Reported signs are facial pain, fever, nasal congestion.",
+    "symptom_sentence_ur": "چہرے کا درد, بخار, ناک بند ہونا کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "facial pain",
+      "fever",
+      "nasal congestion"
+    ],
+    "symptoms_ur": [
+      "چہرے کا درد",
+      "بخار",
+      "ناک بند ہونا"
+    ]
+  },
+  {
+    "disease": "Sinusitis",
+    "symptom_sentence_en": "Complaints of fever, nasal congestion, facial pain, headache were observed.",
+    "symptom_sentence_ur": "مریض کو بخار, ناک بند ہونا, چہرے کا درد, سر درد کی شکایت ہے۔",
+    "symptoms_en": [
+      "fever",
+      "nasal congestion",
+      "facial pain",
+      "headache"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "ناک بند ہونا",
+      "چہرے کا درد",
+      "سر درد"
+    ]
+  },
+  {
+    "disease": "Sinusitis",
+    "symptom_sentence_en": "Complaints of fever, nasal congestion were observed.",
+    "symptom_sentence_ur": "بخار, ناک بند ہونا کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "fever",
+      "nasal congestion"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "ناک بند ہونا"
+    ]
+  },
+  {
+    "disease": "Sinusitis",
+    "symptom_sentence_en": "Symptoms include headache, nasal congestion, facial pain.",
+    "symptom_sentence_ur": "سر درد, ناک بند ہونا, چہرے کا درد کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "headache",
+      "nasal congestion",
+      "facial pain"
+    ],
+    "symptoms_ur": [
+      "سر درد",
+      "ناک بند ہونا",
+      "چہرے کا درد"
+    ]
+  },
+  {
+    "disease": "Sinusitis",
+    "symptom_sentence_en": "The patient is suffering from headache, fever.",
+    "symptom_sentence_ur": "سر درد, بخار کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "headache",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "سر درد",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "Sinusitis",
+    "symptom_sentence_en": "The individual is experiencing facial pain, nasal congestion, fever.",
+    "symptom_sentence_ur": "چہرے کا درد, ناک بند ہونا, بخار کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "facial pain",
+      "nasal congestion",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "چہرے کا درد",
+      "ناک بند ہونا",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "Sinusitis",
+    "symptom_sentence_en": "Complaints of facial pain, headache, nasal congestion were observed.",
+    "symptom_sentence_ur": "علامات میں چہرے کا درد, سر درد, ناک بند ہونا شامل ہیں۔",
+    "symptoms_en": [
+      "facial pain",
+      "headache",
+      "nasal congestion"
+    ],
+    "symptoms_ur": [
+      "چہرے کا درد",
+      "سر درد",
+      "ناک بند ہونا"
+    ]
+  },
+  {
+    "disease": "Eczema",
+    "symptom_sentence_en": "The patient is suffering from red patches, itching.",
+    "symptom_sentence_ur": "مریض کو سرخ دھبے, خارش محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "red patches",
+      "itching"
+    ],
+    "symptoms_ur": [
+      "سرخ دھبے",
+      "خارش"
+    ]
+  },
+  {
+    "disease": "Eczema",
+    "symptom_sentence_en": "Symptoms include red patches, itching, dry skin.",
+    "symptom_sentence_ur": "مریض کو سرخ دھبے, خارش, خشک جلد محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "red patches",
+      "itching",
+      "dry skin"
+    ],
+    "symptoms_ur": [
+      "سرخ دھبے",
+      "خارش",
+      "خشک جلد"
+    ]
+  },
+  {
+    "disease": "Eczema",
+    "symptom_sentence_en": "Reported signs are red patches, skin inflammation.",
+    "symptom_sentence_ur": "سرخ دھبے, جلد کی سوجن کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "red patches",
+      "skin inflammation"
+    ],
+    "symptoms_ur": [
+      "سرخ دھبے",
+      "جلد کی سوجن"
+    ]
+  },
+  {
+    "disease": "Eczema",
+    "symptom_sentence_en": "The patient is suffering from red patches, skin inflammation, itching, dry skin.",
+    "symptom_sentence_ur": "سرخ دھبے, جلد کی سوجن, خارش, خشک جلد کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "red patches",
+      "skin inflammation",
+      "itching",
+      "dry skin"
+    ],
+    "symptoms_ur": [
+      "سرخ دھبے",
+      "جلد کی سوجن",
+      "خارش",
+      "خشک جلد"
+    ]
+  },
+  {
+    "disease": "Eczema",
+    "symptom_sentence_en": "Reported signs are red patches, itching, skin inflammation, dry skin.",
+    "symptom_sentence_ur": "علامات میں سرخ دھبے, خارش, جلد کی سوجن, خشک جلد شامل ہیں۔",
+    "symptoms_en": [
+      "red patches",
+      "itching",
+      "skin inflammation",
+      "dry skin"
+    ],
+    "symptoms_ur": [
+      "سرخ دھبے",
+      "خارش",
+      "جلد کی سوجن",
+      "خشک جلد"
+    ]
+  },
+  {
+    "disease": "Eczema",
+    "symptom_sentence_en": "The individual is experiencing red patches, dry skin, skin inflammation, itching.",
+    "symptom_sentence_ur": "سرخ دھبے, خشک جلد, جلد کی سوجن, خارش کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "red patches",
+      "dry skin",
+      "skin inflammation",
+      "itching"
+    ],
+    "symptoms_ur": [
+      "سرخ دھبے",
+      "خشک جلد",
+      "جلد کی سوجن",
+      "خارش"
+    ]
+  },
+  {
+    "disease": "Eczema",
+    "symptom_sentence_en": "Complaints of skin inflammation, itching, dry skin, red patches were observed.",
+    "symptom_sentence_ur": "مریض کو جلد کی سوجن, خارش, خشک جلد, سرخ دھبے محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "skin inflammation",
+      "itching",
+      "dry skin",
+      "red patches"
+    ],
+    "symptoms_ur": [
+      "جلد کی سوجن",
+      "خارش",
+      "خشک جلد",
+      "سرخ دھبے"
+    ]
+  },
+  {
+    "disease": "Eczema",
+    "symptom_sentence_en": "The patient is suffering from skin inflammation, itching, dry skin, red patches.",
+    "symptom_sentence_ur": "جلد کی سوجن, خارش, خشک جلد, سرخ دھبے کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "skin inflammation",
+      "itching",
+      "dry skin",
+      "red patches"
+    ],
+    "symptoms_ur": [
+      "جلد کی سوجن",
+      "خارش",
+      "خشک جلد",
+      "سرخ دھبے"
+    ]
+  },
+  {
+    "disease": "Eczema",
+    "symptom_sentence_en": "Complaints of skin inflammation, red patches were observed.",
+    "symptom_sentence_ur": "مریض کو جلد کی سوجن, سرخ دھبے محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "skin inflammation",
+      "red patches"
+    ],
+    "symptoms_ur": [
+      "جلد کی سوجن",
+      "سرخ دھبے"
+    ]
+  },
+  {
+    "disease": "Eczema",
+    "symptom_sentence_en": "Reported signs are skin inflammation, red patches.",
+    "symptom_sentence_ur": "علامات میں جلد کی سوجن, سرخ دھبے شامل ہیں۔",
+    "symptoms_en": [
+      "skin inflammation",
+      "red patches"
+    ],
+    "symptoms_ur": [
+      "جلد کی سوجن",
+      "سرخ دھبے"
+    ]
+  },
+  {
+    "disease": "Depression",
+    "symptom_sentence_en": "Reported signs are fatigue, persistent sadness, loss of interest.",
+    "symptom_sentence_ur": "تھکن, مسلسل اداسی, دلچسپی کا خاتمہ کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "fatigue",
+      "persistent sadness",
+      "loss of interest"
+    ],
+    "symptoms_ur": [
+      "تھکن",
+      "مسلسل اداسی",
+      "دلچسپی کا خاتمہ"
+    ]
+  },
+  {
+    "disease": "Depression",
+    "symptom_sentence_en": "Symptoms include persistent sadness, loss of interest, sleep disturbances, fatigue.",
+    "symptom_sentence_ur": "علامات میں مسلسل اداسی, دلچسپی کا خاتمہ, نیند کی خرابی, تھکن شامل ہیں۔",
+    "symptoms_en": [
+      "persistent sadness",
+      "loss of interest",
+      "sleep disturbances",
+      "fatigue"
+    ],
+    "symptoms_ur": [
+      "مسلسل اداسی",
+      "دلچسپی کا خاتمہ",
+      "نیند کی خرابی",
+      "تھکن"
+    ]
+  },
+  {
+    "disease": "Depression",
+    "symptom_sentence_en": "The individual is experiencing sleep disturbances, persistent sadness, loss of interest.",
+    "symptom_sentence_ur": "علامات میں نیند کی خرابی, مسلسل اداسی, دلچسپی کا خاتمہ شامل ہیں۔",
+    "symptoms_en": [
+      "sleep disturbances",
+      "persistent sadness",
+      "loss of interest"
+    ],
+    "symptoms_ur": [
+      "نیند کی خرابی",
+      "مسلسل اداسی",
+      "دلچسپی کا خاتمہ"
+    ]
+  },
+  {
+    "disease": "Depression",
+    "symptom_sentence_en": "Complaints of sleep disturbances, fatigue, loss of interest were observed.",
+    "symptom_sentence_ur": "مریض کو نیند کی خرابی, تھکن, دلچسپی کا خاتمہ کی شکایت ہے۔",
+    "symptoms_en": [
+      "sleep disturbances",
+      "fatigue",
+      "loss of interest"
+    ],
+    "symptoms_ur": [
+      "نیند کی خرابی",
+      "تھکن",
+      "دلچسپی کا خاتمہ"
+    ]
+  },
+  {
+    "disease": "Depression",
+    "symptom_sentence_en": "Reported signs are fatigue, loss of interest, persistent sadness, sleep disturbances.",
+    "symptom_sentence_ur": "مریض کو تھکن, دلچسپی کا خاتمہ, مسلسل اداسی, نیند کی خرابی محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "fatigue",
+      "loss of interest",
+      "persistent sadness",
+      "sleep disturbances"
+    ],
+    "symptoms_ur": [
+      "تھکن",
+      "دلچسپی کا خاتمہ",
+      "مسلسل اداسی",
+      "نیند کی خرابی"
+    ]
+  },
+  {
+    "disease": "Depression",
+    "symptom_sentence_en": "The individual is experiencing sleep disturbances, fatigue, persistent sadness.",
+    "symptom_sentence_ur": "مریض کو نیند کی خرابی, تھکن, مسلسل اداسی محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "sleep disturbances",
+      "fatigue",
+      "persistent sadness"
+    ],
+    "symptoms_ur": [
+      "نیند کی خرابی",
+      "تھکن",
+      "مسلسل اداسی"
+    ]
+  },
+  {
+    "disease": "Depression",
+    "symptom_sentence_en": "The patient is suffering from persistent sadness, sleep disturbances.",
+    "symptom_sentence_ur": "علامات میں مسلسل اداسی, نیند کی خرابی شامل ہیں۔",
+    "symptoms_en": [
+      "persistent sadness",
+      "sleep disturbances"
+    ],
+    "symptoms_ur": [
+      "مسلسل اداسی",
+      "نیند کی خرابی"
+    ]
+  },
+  {
+    "disease": "Depression",
+    "symptom_sentence_en": "Symptoms include persistent sadness, fatigue.",
+    "symptom_sentence_ur": "مریض کو مسلسل اداسی, تھکن کی شکایت ہے۔",
+    "symptoms_en": [
+      "persistent sadness",
+      "fatigue"
+    ],
+    "symptoms_ur": [
+      "مسلسل اداسی",
+      "تھکن"
+    ]
+  },
+  {
+    "disease": "Depression",
+    "symptom_sentence_en": "Symptoms include persistent sadness, sleep disturbances, fatigue, loss of interest.",
+    "symptom_sentence_ur": "مسلسل اداسی, نیند کی خرابی, تھکن, دلچسپی کا خاتمہ کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "persistent sadness",
+      "sleep disturbances",
+      "fatigue",
+      "loss of interest"
+    ],
+    "symptoms_ur": [
+      "مسلسل اداسی",
+      "نیند کی خرابی",
+      "تھکن",
+      "دلچسپی کا خاتمہ"
+    ]
+  },
+  {
+    "disease": "Depression",
+    "symptom_sentence_en": "Complaints of fatigue, sleep disturbances, loss of interest, persistent sadness were observed.",
+    "symptom_sentence_ur": "مریض کو تھکن, نیند کی خرابی, دلچسپی کا خاتمہ, مسلسل اداسی محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "fatigue",
+      "sleep disturbances",
+      "loss of interest",
+      "persistent sadness"
+    ],
+    "symptoms_ur": [
+      "تھکن",
+      "نیند کی خرابی",
+      "دلچسپی کا خاتمہ",
+      "مسلسل اداسی"
+    ]
+  },
+  {
+    "disease": "Anemia",
+    "symptom_sentence_en": "The patient is suffering from shortness of breath, fatigue, dizziness.",
+    "symptom_sentence_ur": "سانس کی کمی, تھکن, چکر آنا کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "shortness of breath",
+      "fatigue",
+      "dizziness"
+    ],
+    "symptoms_ur": [
+      "سانس کی کمی",
+      "تھکن",
+      "چکر آنا"
+    ]
+  },
+  {
+    "disease": "Anemia",
+    "symptom_sentence_en": "Reported signs are fatigue, shortness of breath.",
+    "symptom_sentence_ur": "مریض کو تھکن, سانس کی کمی محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "fatigue",
+      "shortness of breath"
+    ],
+    "symptoms_ur": [
+      "تھکن",
+      "سانس کی کمی"
+    ]
+  },
+  {
+    "disease": "Anemia",
+    "symptom_sentence_en": "Complaints of shortness of breath, dizziness, fatigue were observed.",
+    "symptom_sentence_ur": "مریض کو سانس کی کمی, چکر آنا, تھکن محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "shortness of breath",
+      "dizziness",
+      "fatigue"
+    ],
+    "symptoms_ur": [
+      "سانس کی کمی",
+      "چکر آنا",
+      "تھکن"
+    ]
+  },
+  {
+    "disease": "Anemia",
+    "symptom_sentence_en": "Reported signs are dizziness, pale skin, shortness of breath, fatigue.",
+    "symptom_sentence_ur": "مریض کو چکر آنا, زرد جلد, سانس کی کمی, تھکن کی شکایت ہے۔",
+    "symptoms_en": [
+      "dizziness",
+      "pale skin",
+      "shortness of breath",
+      "fatigue"
+    ],
+    "symptoms_ur": [
+      "چکر آنا",
+      "زرد جلد",
+      "سانس کی کمی",
+      "تھکن"
+    ]
+  },
+  {
+    "disease": "Anemia",
+    "symptom_sentence_en": "Symptoms include shortness of breath, fatigue.",
+    "symptom_sentence_ur": "مریض کو سانس کی کمی, تھکن کی شکایت ہے۔",
+    "symptoms_en": [
+      "shortness of breath",
+      "fatigue"
+    ],
+    "symptoms_ur": [
+      "سانس کی کمی",
+      "تھکن"
+    ]
+  },
+  {
+    "disease": "Anemia",
+    "symptom_sentence_en": "Complaints of shortness of breath, pale skin were observed.",
+    "symptom_sentence_ur": "سانس کی کمی, زرد جلد کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "shortness of breath",
+      "pale skin"
+    ],
+    "symptoms_ur": [
+      "سانس کی کمی",
+      "زرد جلد"
+    ]
+  },
+  {
+    "disease": "Anemia",
+    "symptom_sentence_en": "The individual is experiencing pale skin, dizziness, fatigue, shortness of breath.",
+    "symptom_sentence_ur": "زرد جلد, چکر آنا, تھکن, سانس کی کمی کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "pale skin",
+      "dizziness",
+      "fatigue",
+      "shortness of breath"
+    ],
+    "symptoms_ur": [
+      "زرد جلد",
+      "چکر آنا",
+      "تھکن",
+      "سانس کی کمی"
+    ]
+  },
+  {
+    "disease": "Anemia",
+    "symptom_sentence_en": "Complaints of pale skin, dizziness, fatigue, shortness of breath were observed.",
+    "symptom_sentence_ur": "زرد جلد, چکر آنا, تھکن, سانس کی کمی کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "pale skin",
+      "dizziness",
+      "fatigue",
+      "shortness of breath"
+    ],
+    "symptoms_ur": [
+      "زرد جلد",
+      "چکر آنا",
+      "تھکن",
+      "سانس کی کمی"
+    ]
+  },
+  {
+    "disease": "Anemia",
+    "symptom_sentence_en": "The patient is suffering from shortness of breath, fatigue.",
+    "symptom_sentence_ur": "علامات میں سانس کی کمی, تھکن شامل ہیں۔",
+    "symptoms_en": [
+      "shortness of breath",
+      "fatigue"
+    ],
+    "symptoms_ur": [
+      "سانس کی کمی",
+      "تھکن"
+    ]
+  },
+  {
+    "disease": "Anemia",
+    "symptom_sentence_en": "Complaints of shortness of breath, dizziness were observed.",
+    "symptom_sentence_ur": "سانس کی کمی, چکر آنا کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "shortness of breath",
+      "dizziness"
+    ],
+    "symptoms_ur": [
+      "سانس کی کمی",
+      "چکر آنا"
+    ]
+  },
+  {
+    "disease": "Parkinson's Disease",
+    "symptom_sentence_en": "Reported signs are slowed movement, muscle stiffness, balance problems.",
+    "symptom_sentence_ur": "حرکت میں سستی, پٹھوں کی اکڑن, توازن کے مسائل کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "slowed movement",
+      "muscle stiffness",
+      "balance problems"
+    ],
+    "symptoms_ur": [
+      "حرکت میں سستی",
+      "پٹھوں کی اکڑن",
+      "توازن کے مسائل"
+    ]
+  },
+  {
+    "disease": "Parkinson's Disease",
+    "symptom_sentence_en": "The patient is suffering from balance problems, tremors.",
+    "symptom_sentence_ur": "توازن کے مسائل, لرزش کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "balance problems",
+      "tremors"
+    ],
+    "symptoms_ur": [
+      "توازن کے مسائل",
+      "لرزش"
+    ]
+  },
+  {
+    "disease": "Parkinson's Disease",
+    "symptom_sentence_en": "Symptoms include tremors, slowed movement, balance problems, muscle stiffness.",
+    "symptom_sentence_ur": "لرزش, حرکت میں سستی, توازن کے مسائل, پٹھوں کی اکڑن کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "tremors",
+      "slowed movement",
+      "balance problems",
+      "muscle stiffness"
+    ],
+    "symptoms_ur": [
+      "لرزش",
+      "حرکت میں سستی",
+      "توازن کے مسائل",
+      "پٹھوں کی اکڑن"
+    ]
+  },
+  {
+    "disease": "Parkinson's Disease",
+    "symptom_sentence_en": "The individual is experiencing muscle stiffness, slowed movement.",
+    "symptom_sentence_ur": "مریض کو پٹھوں کی اکڑن, حرکت میں سستی محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "muscle stiffness",
+      "slowed movement"
+    ],
+    "symptoms_ur": [
+      "پٹھوں کی اکڑن",
+      "حرکت میں سستی"
+    ]
+  },
+  {
+    "disease": "Parkinson's Disease",
+    "symptom_sentence_en": "Complaints of muscle stiffness, balance problems, slowed movement, tremors were observed.",
+    "symptom_sentence_ur": "پٹھوں کی اکڑن, توازن کے مسائل, حرکت میں سستی, لرزش کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "muscle stiffness",
+      "balance problems",
+      "slowed movement",
+      "tremors"
+    ],
+    "symptoms_ur": [
+      "پٹھوں کی اکڑن",
+      "توازن کے مسائل",
+      "حرکت میں سستی",
+      "لرزش"
+    ]
+  },
+  {
+    "disease": "Parkinson's Disease",
+    "symptom_sentence_en": "The patient is suffering from muscle stiffness, slowed movement, balance problems.",
+    "symptom_sentence_ur": "پٹھوں کی اکڑن, حرکت میں سستی, توازن کے مسائل کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "muscle stiffness",
+      "slowed movement",
+      "balance problems"
+    ],
+    "symptoms_ur": [
+      "پٹھوں کی اکڑن",
+      "حرکت میں سستی",
+      "توازن کے مسائل"
+    ]
+  },
+  {
+    "disease": "Parkinson's Disease",
+    "symptom_sentence_en": "The individual is experiencing tremors, muscle stiffness, slowed movement, balance problems.",
+    "symptom_sentence_ur": "لرزش, پٹھوں کی اکڑن, حرکت میں سستی, توازن کے مسائل کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "tremors",
+      "muscle stiffness",
+      "slowed movement",
+      "balance problems"
+    ],
+    "symptoms_ur": [
+      "لرزش",
+      "پٹھوں کی اکڑن",
+      "حرکت میں سستی",
+      "توازن کے مسائل"
+    ]
+  },
+  {
+    "disease": "Parkinson's Disease",
+    "symptom_sentence_en": "Complaints of slowed movement, balance problems were observed.",
+    "symptom_sentence_ur": "مریض کو حرکت میں سستی, توازن کے مسائل محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "slowed movement",
+      "balance problems"
+    ],
+    "symptoms_ur": [
+      "حرکت میں سستی",
+      "توازن کے مسائل"
+    ]
+  },
+  {
+    "disease": "Parkinson's Disease",
+    "symptom_sentence_en": "Reported signs are muscle stiffness, balance problems, slowed movement.",
+    "symptom_sentence_ur": "علامات میں پٹھوں کی اکڑن, توازن کے مسائل, حرکت میں سستی شامل ہیں۔",
+    "symptoms_en": [
+      "muscle stiffness",
+      "balance problems",
+      "slowed movement"
+    ],
+    "symptoms_ur": [
+      "پٹھوں کی اکڑن",
+      "توازن کے مسائل",
+      "حرکت میں سستی"
+    ]
+  },
+  {
+    "disease": "Parkinson's Disease",
+    "symptom_sentence_en": "Reported signs are muscle stiffness, slowed movement, balance problems, tremors.",
+    "symptom_sentence_ur": "مریض کو پٹھوں کی اکڑن, حرکت میں سستی, توازن کے مسائل, لرزش محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "muscle stiffness",
+      "slowed movement",
+      "balance problems",
+      "tremors"
+    ],
+    "symptoms_ur": [
+      "پٹھوں کی اکڑن",
+      "حرکت میں سستی",
+      "توازن کے مسائل",
+      "لرزش"
+    ]
+  },
+  {
+    "disease": "Alzheimer's Disease",
+    "symptom_sentence_en": "Reported signs are memory loss, confusion, mood changes, difficulty speaking.",
+    "symptom_sentence_ur": "علامات میں یادداشت کا کمزور ہونا, الجھن, مزاج میں تبدیلی, بولنے میں دشواری شامل ہیں۔",
+    "symptoms_en": [
+      "memory loss",
+      "confusion",
+      "mood changes",
+      "difficulty speaking"
+    ],
+    "symptoms_ur": [
+      "یادداشت کا کمزور ہونا",
+      "الجھن",
+      "مزاج میں تبدیلی",
+      "بولنے میں دشواری"
+    ]
+  },
+  {
+    "disease": "Alzheimer's Disease",
+    "symptom_sentence_en": "The individual is experiencing difficulty speaking, memory loss.",
+    "symptom_sentence_ur": "بولنے میں دشواری, یادداشت کا کمزور ہونا کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "difficulty speaking",
+      "memory loss"
+    ],
+    "symptoms_ur": [
+      "بولنے میں دشواری",
+      "یادداشت کا کمزور ہونا"
+    ]
+  },
+  {
+    "disease": "Alzheimer's Disease",
+    "symptom_sentence_en": "Complaints of difficulty speaking, confusion were observed.",
+    "symptom_sentence_ur": "بولنے میں دشواری, الجھن کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "difficulty speaking",
+      "confusion"
+    ],
+    "symptoms_ur": [
+      "بولنے میں دشواری",
+      "الجھن"
+    ]
+  },
+  {
+    "disease": "Alzheimer's Disease",
+    "symptom_sentence_en": "The patient is suffering from mood changes, difficulty speaking, confusion.",
+    "symptom_sentence_ur": "علامات میں مزاج میں تبدیلی, بولنے میں دشواری, الجھن شامل ہیں۔",
+    "symptoms_en": [
+      "mood changes",
+      "difficulty speaking",
+      "confusion"
+    ],
+    "symptoms_ur": [
+      "مزاج میں تبدیلی",
+      "بولنے میں دشواری",
+      "الجھن"
+    ]
+  },
+  {
+    "disease": "Alzheimer's Disease",
+    "symptom_sentence_en": "Symptoms include mood changes, confusion, memory loss.",
+    "symptom_sentence_ur": "مریض کو مزاج میں تبدیلی, الجھن, یادداشت کا کمزور ہونا کی شکایت ہے۔",
+    "symptoms_en": [
+      "mood changes",
+      "confusion",
+      "memory loss"
+    ],
+    "symptoms_ur": [
+      "مزاج میں تبدیلی",
+      "الجھن",
+      "یادداشت کا کمزور ہونا"
+    ]
+  },
+  {
+    "disease": "Alzheimer's Disease",
+    "symptom_sentence_en": "Symptoms include mood changes, difficulty speaking, confusion.",
+    "symptom_sentence_ur": "مریض کو مزاج میں تبدیلی, بولنے میں دشواری, الجھن محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "mood changes",
+      "difficulty speaking",
+      "confusion"
+    ],
+    "symptoms_ur": [
+      "مزاج میں تبدیلی",
+      "بولنے میں دشواری",
+      "الجھن"
+    ]
+  },
+  {
+    "disease": "Alzheimer's Disease",
+    "symptom_sentence_en": "Symptoms include mood changes, memory loss, confusion, difficulty speaking.",
+    "symptom_sentence_ur": "مریض کو مزاج میں تبدیلی, یادداشت کا کمزور ہونا, الجھن, بولنے میں دشواری محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "mood changes",
+      "memory loss",
+      "confusion",
+      "difficulty speaking"
+    ],
+    "symptoms_ur": [
+      "مزاج میں تبدیلی",
+      "یادداشت کا کمزور ہونا",
+      "الجھن",
+      "بولنے میں دشواری"
+    ]
+  },
+  {
+    "disease": "Alzheimer's Disease",
+    "symptom_sentence_en": "The patient is suffering from mood changes, memory loss.",
+    "symptom_sentence_ur": "مزاج میں تبدیلی, یادداشت کا کمزور ہونا کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "mood changes",
+      "memory loss"
+    ],
+    "symptoms_ur": [
+      "مزاج میں تبدیلی",
+      "یادداشت کا کمزور ہونا"
+    ]
+  },
+  {
+    "disease": "Alzheimer's Disease",
+    "symptom_sentence_en": "Complaints of confusion, difficulty speaking were observed.",
+    "symptom_sentence_ur": "مریض کو الجھن, بولنے میں دشواری محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "confusion",
+      "difficulty speaking"
+    ],
+    "symptoms_ur": [
+      "الجھن",
+      "بولنے میں دشواری"
+    ]
+  },
+  {
+    "disease": "Alzheimer's Disease",
+    "symptom_sentence_en": "The individual is experiencing difficulty speaking, mood changes.",
+    "symptom_sentence_ur": "بولنے میں دشواری, مزاج میں تبدیلی کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "difficulty speaking",
+      "mood changes"
+    ],
+    "symptoms_ur": [
+      "بولنے میں دشواری",
+      "مزاج میں تبدیلی"
+    ]
+  },
+  {
+    "disease": "Epilepsy",
+    "symptom_sentence_en": "Complaints of confusion, staring spells were observed.",
+    "symptom_sentence_ur": "الجھن, خالی نظروں سے دیکھنا کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "confusion",
+      "staring spells"
+    ],
+    "symptoms_ur": [
+      "الجھن",
+      "خالی نظروں سے دیکھنا"
+    ]
+  },
+  {
+    "disease": "Epilepsy",
+    "symptom_sentence_en": "Complaints of confusion, seizures, staring spells were observed.",
+    "symptom_sentence_ur": "مریض کو الجھن, دورے, خالی نظروں سے دیکھنا کی شکایت ہے۔",
+    "symptoms_en": [
+      "confusion",
+      "seizures",
+      "staring spells"
+    ],
+    "symptoms_ur": [
+      "الجھن",
+      "دورے",
+      "خالی نظروں سے دیکھنا"
+    ]
+  },
+  {
+    "disease": "Epilepsy",
+    "symptom_sentence_en": "Symptoms include seizures, staring spells.",
+    "symptom_sentence_ur": "علامات میں دورے, خالی نظروں سے دیکھنا شامل ہیں۔",
+    "symptoms_en": [
+      "seizures",
+      "staring spells"
+    ],
+    "symptoms_ur": [
+      "دورے",
+      "خالی نظروں سے دیکھنا"
+    ]
+  },
+  {
+    "disease": "Epilepsy",
+    "symptom_sentence_en": "Symptoms include staring spells, confusion, seizures.",
+    "symptom_sentence_ur": "مریض کو خالی نظروں سے دیکھنا, الجھن, دورے کی شکایت ہے۔",
+    "symptoms_en": [
+      "staring spells",
+      "confusion",
+      "seizures"
+    ],
+    "symptoms_ur": [
+      "خالی نظروں سے دیکھنا",
+      "الجھن",
+      "دورے"
+    ]
+  },
+  {
+    "disease": "Epilepsy",
+    "symptom_sentence_en": "Reported signs are staring spells, seizures.",
+    "symptom_sentence_ur": "خالی نظروں سے دیکھنا, دورے کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "staring spells",
+      "seizures"
+    ],
+    "symptoms_ur": [
+      "خالی نظروں سے دیکھنا",
+      "دورے"
+    ]
+  },
+  {
+    "disease": "Epilepsy",
+    "symptom_sentence_en": "Reported signs are confusion, seizures.",
+    "symptom_sentence_ur": "مریض کو الجھن, دورے محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "confusion",
+      "seizures"
+    ],
+    "symptoms_ur": [
+      "الجھن",
+      "دورے"
+    ]
+  },
+  {
+    "disease": "Epilepsy",
+    "symptom_sentence_en": "The patient is suffering from seizures, staring spells, confusion, loss of consciousness.",
+    "symptom_sentence_ur": "دورے, خالی نظروں سے دیکھنا, الجھن, ہوش کھونا کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "seizures",
+      "staring spells",
+      "confusion",
+      "loss of consciousness"
+    ],
+    "symptoms_ur": [
+      "دورے",
+      "خالی نظروں سے دیکھنا",
+      "الجھن",
+      "ہوش کھونا"
+    ]
+  },
+  {
+    "disease": "Epilepsy",
+    "symptom_sentence_en": "Complaints of loss of consciousness, confusion, staring spells, seizures were observed.",
+    "symptom_sentence_ur": "مریض کو ہوش کھونا, الجھن, خالی نظروں سے دیکھنا, دورے کی شکایت ہے۔",
+    "symptoms_en": [
+      "loss of consciousness",
+      "confusion",
+      "staring spells",
+      "seizures"
+    ],
+    "symptoms_ur": [
+      "ہوش کھونا",
+      "الجھن",
+      "خالی نظروں سے دیکھنا",
+      "دورے"
+    ]
+  },
+  {
+    "disease": "Epilepsy",
+    "symptom_sentence_en": "Complaints of loss of consciousness, confusion were observed.",
+    "symptom_sentence_ur": "ہوش کھونا, الجھن کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "loss of consciousness",
+      "confusion"
+    ],
+    "symptoms_ur": [
+      "ہوش کھونا",
+      "الجھن"
+    ]
+  },
+  {
+    "disease": "Epilepsy",
+    "symptom_sentence_en": "Reported signs are confusion, staring spells.",
+    "symptom_sentence_ur": "مریض کو الجھن, خالی نظروں سے دیکھنا محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "confusion",
+      "staring spells"
+    ],
+    "symptoms_ur": [
+      "الجھن",
+      "خالی نظروں سے دیکھنا"
+    ]
+  },
+  {
+    "disease": "Schizophrenia",
+    "symptom_sentence_en": "Reported signs are hallucinations, lack of motivation, delusions.",
+    "symptom_sentence_ur": "وہم, حوصلے کی کمی, غلط خیالات کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "hallucinations",
+      "lack of motivation",
+      "delusions"
+    ],
+    "symptoms_ur": [
+      "وہم",
+      "حوصلے کی کمی",
+      "غلط خیالات"
+    ]
+  },
+  {
+    "disease": "Schizophrenia",
+    "symptom_sentence_en": "The patient is suffering from hallucinations, disorganized thinking, delusions, lack of motivation.",
+    "symptom_sentence_ur": "وہم, منتشر سوچ, غلط خیالات, حوصلے کی کمی کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "hallucinations",
+      "disorganized thinking",
+      "delusions",
+      "lack of motivation"
+    ],
+    "symptoms_ur": [
+      "وہم",
+      "منتشر سوچ",
+      "غلط خیالات",
+      "حوصلے کی کمی"
+    ]
+  },
+  {
+    "disease": "Schizophrenia",
+    "symptom_sentence_en": "The individual is experiencing hallucinations, delusions, lack of motivation.",
+    "symptom_sentence_ur": "مریض کو وہم, غلط خیالات, حوصلے کی کمی کی شکایت ہے۔",
+    "symptoms_en": [
+      "hallucinations",
+      "delusions",
+      "lack of motivation"
+    ],
+    "symptoms_ur": [
+      "وہم",
+      "غلط خیالات",
+      "حوصلے کی کمی"
+    ]
+  },
+  {
+    "disease": "Schizophrenia",
+    "symptom_sentence_en": "The patient is suffering from disorganized thinking, lack of motivation, hallucinations.",
+    "symptom_sentence_ur": "مریض کو منتشر سوچ, حوصلے کی کمی, وہم کی شکایت ہے۔",
+    "symptoms_en": [
+      "disorganized thinking",
+      "lack of motivation",
+      "hallucinations"
+    ],
+    "symptoms_ur": [
+      "منتشر سوچ",
+      "حوصلے کی کمی",
+      "وہم"
+    ]
+  },
+  {
+    "disease": "Schizophrenia",
+    "symptom_sentence_en": "Complaints of disorganized thinking, hallucinations were observed.",
+    "symptom_sentence_ur": "علامات میں منتشر سوچ, وہم شامل ہیں۔",
+    "symptoms_en": [
+      "disorganized thinking",
+      "hallucinations"
+    ],
+    "symptoms_ur": [
+      "منتشر سوچ",
+      "وہم"
+    ]
+  },
+  {
+    "disease": "Schizophrenia",
+    "symptom_sentence_en": "The individual is experiencing disorganized thinking, hallucinations, lack of motivation.",
+    "symptom_sentence_ur": "مریض کو منتشر سوچ, وہم, حوصلے کی کمی محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "disorganized thinking",
+      "hallucinations",
+      "lack of motivation"
+    ],
+    "symptoms_ur": [
+      "منتشر سوچ",
+      "وہم",
+      "حوصلے کی کمی"
+    ]
+  },
+  {
+    "disease": "Schizophrenia",
+    "symptom_sentence_en": "Complaints of delusions, hallucinations, lack of motivation were observed.",
+    "symptom_sentence_ur": "غلط خیالات, وہم, حوصلے کی کمی کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "delusions",
+      "hallucinations",
+      "lack of motivation"
+    ],
+    "symptoms_ur": [
+      "غلط خیالات",
+      "وہم",
+      "حوصلے کی کمی"
+    ]
+  },
+  {
+    "disease": "Schizophrenia",
+    "symptom_sentence_en": "Symptoms include lack of motivation, hallucinations.",
+    "symptom_sentence_ur": "حوصلے کی کمی, وہم کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "lack of motivation",
+      "hallucinations"
+    ],
+    "symptoms_ur": [
+      "حوصلے کی کمی",
+      "وہم"
+    ]
+  },
+  {
+    "disease": "Schizophrenia",
+    "symptom_sentence_en": "Complaints of disorganized thinking, lack of motivation, hallucinations, delusions were observed.",
+    "symptom_sentence_ur": "مریض کو منتشر سوچ, حوصلے کی کمی, وہم, غلط خیالات محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "disorganized thinking",
+      "lack of motivation",
+      "hallucinations",
+      "delusions"
+    ],
+    "symptoms_ur": [
+      "منتشر سوچ",
+      "حوصلے کی کمی",
+      "وہم",
+      "غلط خیالات"
+    ]
+  },
+  {
+    "disease": "Schizophrenia",
+    "symptom_sentence_en": "The individual is experiencing delusions, lack of motivation, disorganized thinking, hallucinations.",
+    "symptom_sentence_ur": "غلط خیالات, حوصلے کی کمی, منتشر سوچ, وہم کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "delusions",
+      "lack of motivation",
+      "disorganized thinking",
+      "hallucinations"
+    ],
+    "symptoms_ur": [
+      "غلط خیالات",
+      "حوصلے کی کمی",
+      "منتشر سوچ",
+      "وہم"
+    ]
+  },
+  {
+    "disease": "Lupus",
+    "symptom_sentence_en": "The individual is experiencing rash, joint pain, fever.",
+    "symptom_sentence_ur": "علامات میں جلد پر دھبے, جوڑوں کا درد, بخار شامل ہیں۔",
+    "symptoms_en": [
+      "rash",
+      "joint pain",
+      "fever"
+    ],
+    "symptoms_ur": [
+      "جلد پر دھبے",
+      "جوڑوں کا درد",
+      "بخار"
+    ]
+  },
+  {
+    "disease": "Lupus",
+    "symptom_sentence_en": "Reported signs are fever, fatigue, joint pain, rash.",
+    "symptom_sentence_ur": "مریض کو بخار, تھکن, جوڑوں کا درد, جلد پر دھبے محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "fever",
+      "fatigue",
+      "joint pain",
+      "rash"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "تھکن",
+      "جوڑوں کا درد",
+      "جلد پر دھبے"
+    ]
+  },
+  {
+    "disease": "Lupus",
+    "symptom_sentence_en": "Complaints of fever, fatigue were observed.",
+    "symptom_sentence_ur": "مریض کو بخار, تھکن محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "fever",
+      "fatigue"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "تھکن"
+    ]
+  },
+  {
+    "disease": "Lupus",
+    "symptom_sentence_en": "Complaints of rash, fever, joint pain were observed.",
+    "symptom_sentence_ur": "مریض کو جلد پر دھبے, بخار, جوڑوں کا درد محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "rash",
+      "fever",
+      "joint pain"
+    ],
+    "symptoms_ur": [
+      "جلد پر دھبے",
+      "بخار",
+      "جوڑوں کا درد"
+    ]
+  },
+  {
+    "disease": "Lupus",
+    "symptom_sentence_en": "The individual is experiencing fever, fatigue, joint pain, rash.",
+    "symptom_sentence_ur": "مریض کو بخار, تھکن, جوڑوں کا درد, جلد پر دھبے کی شکایت ہے۔",
+    "symptoms_en": [
+      "fever",
+      "fatigue",
+      "joint pain",
+      "rash"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "تھکن",
+      "جوڑوں کا درد",
+      "جلد پر دھبے"
+    ]
+  },
+  {
+    "disease": "Lupus",
+    "symptom_sentence_en": "Reported signs are fatigue, fever, rash.",
+    "symptom_sentence_ur": "مریض کو تھکن, بخار, جلد پر دھبے محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "fatigue",
+      "fever",
+      "rash"
+    ],
+    "symptoms_ur": [
+      "تھکن",
+      "بخار",
+      "جلد پر دھبے"
+    ]
+  },
+  {
+    "disease": "Lupus",
+    "symptom_sentence_en": "The patient is suffering from fatigue, joint pain.",
+    "symptom_sentence_ur": "تھکن, جوڑوں کا درد کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "fatigue",
+      "joint pain"
+    ],
+    "symptoms_ur": [
+      "تھکن",
+      "جوڑوں کا درد"
+    ]
+  },
+  {
+    "disease": "Lupus",
+    "symptom_sentence_en": "Complaints of fever, joint pain, rash were observed.",
+    "symptom_sentence_ur": "بخار, جوڑوں کا درد, جلد پر دھبے کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "fever",
+      "joint pain",
+      "rash"
+    ],
+    "symptoms_ur": [
+      "بخار",
+      "جوڑوں کا درد",
+      "جلد پر دھبے"
+    ]
+  },
+  {
+    "disease": "Lupus",
+    "symptom_sentence_en": "Reported signs are fatigue, fever, rash.",
+    "symptom_sentence_ur": "علامات میں تھکن, بخار, جلد پر دھبے شامل ہیں۔",
+    "symptoms_en": [
+      "fatigue",
+      "fever",
+      "rash"
+    ],
+    "symptoms_ur": [
+      "تھکن",
+      "بخار",
+      "جلد پر دھبے"
+    ]
+  },
+  {
+    "disease": "Lupus",
+    "symptom_sentence_en": "The individual is experiencing rash, fever, fatigue.",
+    "symptom_sentence_ur": "مریض کو جلد پر دھبے, بخار, تھکن محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "rash",
+      "fever",
+      "fatigue"
+    ],
+    "symptoms_ur": [
+      "جلد پر دھبے",
+      "بخار",
+      "تھکن"
+    ]
+  },
+  {
+    "disease": "Multiple Sclerosis",
+    "symptom_sentence_en": "Reported signs are tingling, muscle weakness.",
+    "symptom_sentence_ur": "مریض کو جھنجھناہٹ, پٹھوں کی کمزوری محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "tingling",
+      "muscle weakness"
+    ],
+    "symptoms_ur": [
+      "جھنجھناہٹ",
+      "پٹھوں کی کمزوری"
+    ]
+  },
+  {
+    "disease": "Multiple Sclerosis",
+    "symptom_sentence_en": "Reported signs are vision problems, muscle weakness.",
+    "symptom_sentence_ur": "نظر کے مسائل, پٹھوں کی کمزوری کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "vision problems",
+      "muscle weakness"
+    ],
+    "symptoms_ur": [
+      "نظر کے مسائل",
+      "پٹھوں کی کمزوری"
+    ]
+  },
+  {
+    "disease": "Multiple Sclerosis",
+    "symptom_sentence_en": "Symptoms include numbness, vision problems.",
+    "symptom_sentence_ur": "علامات میں سن ہونا, نظر کے مسائل شامل ہیں۔",
+    "symptoms_en": [
+      "numbness",
+      "vision problems"
+    ],
+    "symptoms_ur": [
+      "سن ہونا",
+      "نظر کے مسائل"
+    ]
+  },
+  {
+    "disease": "Multiple Sclerosis",
+    "symptom_sentence_en": "Complaints of vision problems, tingling, muscle weakness, numbness were observed.",
+    "symptom_sentence_ur": "مریض کو نظر کے مسائل, جھنجھناہٹ, پٹھوں کی کمزوری, سن ہونا محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "vision problems",
+      "tingling",
+      "muscle weakness",
+      "numbness"
+    ],
+    "symptoms_ur": [
+      "نظر کے مسائل",
+      "جھنجھناہٹ",
+      "پٹھوں کی کمزوری",
+      "سن ہونا"
+    ]
+  },
+  {
+    "disease": "Multiple Sclerosis",
+    "symptom_sentence_en": "The patient is suffering from muscle weakness, tingling, numbness, vision problems.",
+    "symptom_sentence_ur": "مریض کو پٹھوں کی کمزوری, جھنجھناہٹ, سن ہونا, نظر کے مسائل کی شکایت ہے۔",
+    "symptoms_en": [
+      "muscle weakness",
+      "tingling",
+      "numbness",
+      "vision problems"
+    ],
+    "symptoms_ur": [
+      "پٹھوں کی کمزوری",
+      "جھنجھناہٹ",
+      "سن ہونا",
+      "نظر کے مسائل"
+    ]
+  },
+  {
+    "disease": "Multiple Sclerosis",
+    "symptom_sentence_en": "The patient is suffering from muscle weakness, vision problems, numbness, tingling.",
+    "symptom_sentence_ur": "علامات میں پٹھوں کی کمزوری, نظر کے مسائل, سن ہونا, جھنجھناہٹ شامل ہیں۔",
+    "symptoms_en": [
+      "muscle weakness",
+      "vision problems",
+      "numbness",
+      "tingling"
+    ],
+    "symptoms_ur": [
+      "پٹھوں کی کمزوری",
+      "نظر کے مسائل",
+      "سن ہونا",
+      "جھنجھناہٹ"
+    ]
+  },
+  {
+    "disease": "Multiple Sclerosis",
+    "symptom_sentence_en": "The patient is suffering from tingling, numbness, vision problems.",
+    "symptom_sentence_ur": "جھنجھناہٹ, سن ہونا, نظر کے مسائل کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "tingling",
+      "numbness",
+      "vision problems"
+    ],
+    "symptoms_ur": [
+      "جھنجھناہٹ",
+      "سن ہونا",
+      "نظر کے مسائل"
+    ]
+  },
+  {
+    "disease": "Multiple Sclerosis",
+    "symptom_sentence_en": "The individual is experiencing tingling, muscle weakness, vision problems, numbness.",
+    "symptom_sentence_ur": "علامات میں جھنجھناہٹ, پٹھوں کی کمزوری, نظر کے مسائل, سن ہونا شامل ہیں۔",
+    "symptoms_en": [
+      "tingling",
+      "muscle weakness",
+      "vision problems",
+      "numbness"
+    ],
+    "symptoms_ur": [
+      "جھنجھناہٹ",
+      "پٹھوں کی کمزوری",
+      "نظر کے مسائل",
+      "سن ہونا"
+    ]
+  },
+  {
+    "disease": "Multiple Sclerosis",
+    "symptom_sentence_en": "Reported signs are tingling, numbness.",
+    "symptom_sentence_ur": "جھنجھناہٹ, سن ہونا کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "tingling",
+      "numbness"
+    ],
+    "symptoms_ur": [
+      "جھنجھناہٹ",
+      "سن ہونا"
+    ]
+  },
+  {
+    "disease": "Multiple Sclerosis",
+    "symptom_sentence_en": "The patient is suffering from numbness, tingling.",
+    "symptom_sentence_ur": "سن ہونا, جھنجھناہٹ کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "numbness",
+      "tingling"
+    ],
+    "symptoms_ur": [
+      "سن ہونا",
+      "جھنجھناہٹ"
+    ]
+  },
+  {
+    "disease": "Crohn's Disease",
+    "symptom_sentence_en": "Complaints of abdominal pain, diarrhea, fatigue, weight loss were observed.",
+    "symptom_sentence_ur": "مریض کو پیٹ میں درد, دست, تھکن, وزن میں کمی کی شکایت ہے۔",
+    "symptoms_en": [
+      "abdominal pain",
+      "diarrhea",
+      "fatigue",
+      "weight loss"
+    ],
+    "symptoms_ur": [
+      "پیٹ میں درد",
+      "دست",
+      "تھکن",
+      "وزن میں کمی"
+    ]
+  },
+  {
+    "disease": "Crohn's Disease",
+    "symptom_sentence_en": "Complaints of weight loss, abdominal pain were observed.",
+    "symptom_sentence_ur": "مریض کو وزن میں کمی, پیٹ میں درد محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "weight loss",
+      "abdominal pain"
+    ],
+    "symptoms_ur": [
+      "وزن میں کمی",
+      "پیٹ میں درد"
+    ]
+  },
+  {
+    "disease": "Crohn's Disease",
+    "symptom_sentence_en": "Complaints of abdominal pain, weight loss, fatigue, diarrhea were observed.",
+    "symptom_sentence_ur": "مریض کو پیٹ میں درد, وزن میں کمی, تھکن, دست کی شکایت ہے۔",
+    "symptoms_en": [
+      "abdominal pain",
+      "weight loss",
+      "fatigue",
+      "diarrhea"
+    ],
+    "symptoms_ur": [
+      "پیٹ میں درد",
+      "وزن میں کمی",
+      "تھکن",
+      "دست"
+    ]
+  },
+  {
+    "disease": "Crohn's Disease",
+    "symptom_sentence_en": "Symptoms include weight loss, abdominal pain.",
+    "symptom_sentence_ur": "مریض کو وزن میں کمی, پیٹ میں درد محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "weight loss",
+      "abdominal pain"
+    ],
+    "symptoms_ur": [
+      "وزن میں کمی",
+      "پیٹ میں درد"
+    ]
+  },
+  {
+    "disease": "Crohn's Disease",
+    "symptom_sentence_en": "Symptoms include fatigue, diarrhea, weight loss.",
+    "symptom_sentence_ur": "تھکن, دست, وزن میں کمی کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "fatigue",
+      "diarrhea",
+      "weight loss"
+    ],
+    "symptoms_ur": [
+      "تھکن",
+      "دست",
+      "وزن میں کمی"
+    ]
+  },
+  {
+    "disease": "Crohn's Disease",
+    "symptom_sentence_en": "Symptoms include weight loss, abdominal pain, fatigue.",
+    "symptom_sentence_ur": "وزن میں کمی, پیٹ میں درد, تھکن کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "weight loss",
+      "abdominal pain",
+      "fatigue"
+    ],
+    "symptoms_ur": [
+      "وزن میں کمی",
+      "پیٹ میں درد",
+      "تھکن"
+    ]
+  },
+  {
+    "disease": "Crohn's Disease",
+    "symptom_sentence_en": "The patient is suffering from weight loss, diarrhea, fatigue.",
+    "symptom_sentence_ur": "وزن میں کمی, دست, تھکن کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "weight loss",
+      "diarrhea",
+      "fatigue"
+    ],
+    "symptoms_ur": [
+      "وزن میں کمی",
+      "دست",
+      "تھکن"
+    ]
+  },
+  {
+    "disease": "Crohn's Disease",
+    "symptom_sentence_en": "The patient is suffering from weight loss, diarrhea.",
+    "symptom_sentence_ur": "وزن میں کمی, دست کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "weight loss",
+      "diarrhea"
+    ],
+    "symptoms_ur": [
+      "وزن میں کمی",
+      "دست"
+    ]
+  },
+  {
+    "disease": "Crohn's Disease",
+    "symptom_sentence_en": "Reported signs are abdominal pain, weight loss.",
+    "symptom_sentence_ur": "پیٹ میں درد, وزن میں کمی کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "abdominal pain",
+      "weight loss"
+    ],
+    "symptoms_ur": [
+      "پیٹ میں درد",
+      "وزن میں کمی"
+    ]
+  },
+  {
+    "disease": "Crohn's Disease",
+    "symptom_sentence_en": "Complaints of diarrhea, abdominal pain, fatigue, weight loss were observed.",
+    "symptom_sentence_ur": "دست, پیٹ میں درد, تھکن, وزن میں کمی کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "diarrhea",
+      "abdominal pain",
+      "fatigue",
+      "weight loss"
+    ],
+    "symptoms_ur": [
+      "دست",
+      "پیٹ میں درد",
+      "تھکن",
+      "وزن میں کمی"
+    ]
+  },
+  {
+    "disease": "Cystic Fibrosis",
+    "symptom_sentence_en": "Symptoms include persistent cough, lung infections, wheezing, poor growth.",
+    "symptom_sentence_ur": "علامات میں مسلسل کھانسی, پھیپھڑوں کی انفیکشن, سیٹی جیسی سانس, کم نشونما شامل ہیں۔",
+    "symptoms_en": [
+      "persistent cough",
+      "lung infections",
+      "wheezing",
+      "poor growth"
+    ],
+    "symptoms_ur": [
+      "مسلسل کھانسی",
+      "پھیپھڑوں کی انفیکشن",
+      "سیٹی جیسی سانس",
+      "کم نشونما"
+    ]
+  },
+  {
+    "disease": "Cystic Fibrosis",
+    "symptom_sentence_en": "The patient is suffering from poor growth, persistent cough.",
+    "symptom_sentence_ur": "کم نشونما, مسلسل کھانسی کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "poor growth",
+      "persistent cough"
+    ],
+    "symptoms_ur": [
+      "کم نشونما",
+      "مسلسل کھانسی"
+    ]
+  },
+  {
+    "disease": "Cystic Fibrosis",
+    "symptom_sentence_en": "Complaints of lung infections, persistent cough, poor growth, wheezing were observed.",
+    "symptom_sentence_ur": "مریض کو پھیپھڑوں کی انفیکشن, مسلسل کھانسی, کم نشونما, سیٹی جیسی سانس کی شکایت ہے۔",
+    "symptoms_en": [
+      "lung infections",
+      "persistent cough",
+      "poor growth",
+      "wheezing"
+    ],
+    "symptoms_ur": [
+      "پھیپھڑوں کی انفیکشن",
+      "مسلسل کھانسی",
+      "کم نشونما",
+      "سیٹی جیسی سانس"
+    ]
+  },
+  {
+    "disease": "Cystic Fibrosis",
+    "symptom_sentence_en": "Symptoms include lung infections, persistent cough, wheezing.",
+    "symptom_sentence_ur": "علامات میں پھیپھڑوں کی انفیکشن, مسلسل کھانسی, سیٹی جیسی سانس شامل ہیں۔",
+    "symptoms_en": [
+      "lung infections",
+      "persistent cough",
+      "wheezing"
+    ],
+    "symptoms_ur": [
+      "پھیپھڑوں کی انفیکشن",
+      "مسلسل کھانسی",
+      "سیٹی جیسی سانس"
+    ]
+  },
+  {
+    "disease": "Cystic Fibrosis",
+    "symptom_sentence_en": "The patient is suffering from persistent cough, poor growth, lung infections.",
+    "symptom_sentence_ur": "مریض کو مسلسل کھانسی, کم نشونما, پھیپھڑوں کی انفیکشن کی شکایت ہے۔",
+    "symptoms_en": [
+      "persistent cough",
+      "poor growth",
+      "lung infections"
+    ],
+    "symptoms_ur": [
+      "مسلسل کھانسی",
+      "کم نشونما",
+      "پھیپھڑوں کی انفیکشن"
+    ]
+  },
+  {
+    "disease": "Cystic Fibrosis",
+    "symptom_sentence_en": "Complaints of wheezing, persistent cough, lung infections were observed.",
+    "symptom_sentence_ur": "علامات میں سیٹی جیسی سانس, مسلسل کھانسی, پھیپھڑوں کی انفیکشن شامل ہیں۔",
+    "symptoms_en": [
+      "wheezing",
+      "persistent cough",
+      "lung infections"
+    ],
+    "symptoms_ur": [
+      "سیٹی جیسی سانس",
+      "مسلسل کھانسی",
+      "پھیپھڑوں کی انفیکشن"
+    ]
+  },
+  {
+    "disease": "Cystic Fibrosis",
+    "symptom_sentence_en": "The individual is experiencing persistent cough, lung infections, wheezing.",
+    "symptom_sentence_ur": "مسلسل کھانسی, پھیپھڑوں کی انفیکشن, سیٹی جیسی سانس کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "persistent cough",
+      "lung infections",
+      "wheezing"
+    ],
+    "symptoms_ur": [
+      "مسلسل کھانسی",
+      "پھیپھڑوں کی انفیکشن",
+      "سیٹی جیسی سانس"
+    ]
+  },
+  {
+    "disease": "Cystic Fibrosis",
+    "symptom_sentence_en": "The individual is experiencing persistent cough, lung infections, poor growth, wheezing.",
+    "symptom_sentence_ur": "علامات میں مسلسل کھانسی, پھیپھڑوں کی انفیکشن, کم نشونما, سیٹی جیسی سانس شامل ہیں۔",
+    "symptoms_en": [
+      "persistent cough",
+      "lung infections",
+      "poor growth",
+      "wheezing"
+    ],
+    "symptoms_ur": [
+      "مسلسل کھانسی",
+      "پھیپھڑوں کی انفیکشن",
+      "کم نشونما",
+      "سیٹی جیسی سانس"
+    ]
+  },
+  {
+    "disease": "Cystic Fibrosis",
+    "symptom_sentence_en": "The individual is experiencing lung infections, persistent cough, wheezing.",
+    "symptom_sentence_ur": "مریض کو پھیپھڑوں کی انفیکشن, مسلسل کھانسی, سیٹی جیسی سانس محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "lung infections",
+      "persistent cough",
+      "wheezing"
+    ],
+    "symptoms_ur": [
+      "پھیپھڑوں کی انفیکشن",
+      "مسلسل کھانسی",
+      "سیٹی جیسی سانس"
+    ]
+  },
+  {
+    "disease": "Cystic Fibrosis",
+    "symptom_sentence_en": "The patient is suffering from persistent cough, poor growth, lung infections, wheezing.",
+    "symptom_sentence_ur": "مسلسل کھانسی, کم نشونما, پھیپھڑوں کی انفیکشن, سیٹی جیسی سانس کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "persistent cough",
+      "poor growth",
+      "lung infections",
+      "wheezing"
+    ],
+    "symptoms_ur": [
+      "مسلسل کھانسی",
+      "کم نشونما",
+      "پھیپھڑوں کی انفیکشن",
+      "سیٹی جیسی سانس"
+    ]
+  },
+  {
+    "disease": "Psoriasis",
+    "symptom_sentence_en": "The individual is experiencing dry skin, scaly skin.",
+    "symptom_sentence_ur": "خشک جلد, چھلنے والی جلد کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "dry skin",
+      "scaly skin"
+    ],
+    "symptoms_ur": [
+      "خشک جلد",
+      "چھلنے والی جلد"
+    ]
+  },
+  {
+    "disease": "Psoriasis",
+    "symptom_sentence_en": "The patient is suffering from red patches, dry skin, scaly skin.",
+    "symptom_sentence_ur": "سرخ دھبے, خشک جلد, چھلنے والی جلد کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "red patches",
+      "dry skin",
+      "scaly skin"
+    ],
+    "symptoms_ur": [
+      "سرخ دھبے",
+      "خشک جلد",
+      "چھلنے والی جلد"
+    ]
+  },
+  {
+    "disease": "Psoriasis",
+    "symptom_sentence_en": "The patient is suffering from scaly skin, red patches, itching.",
+    "symptom_sentence_ur": "علامات میں چھلنے والی جلد, سرخ دھبے, خارش شامل ہیں۔",
+    "symptoms_en": [
+      "scaly skin",
+      "red patches",
+      "itching"
+    ],
+    "symptoms_ur": [
+      "چھلنے والی جلد",
+      "سرخ دھبے",
+      "خارش"
+    ]
+  },
+  {
+    "disease": "Psoriasis",
+    "symptom_sentence_en": "The patient is suffering from dry skin, itching, scaly skin.",
+    "symptom_sentence_ur": "خشک جلد, خارش, چھلنے والی جلد کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "dry skin",
+      "itching",
+      "scaly skin"
+    ],
+    "symptoms_ur": [
+      "خشک جلد",
+      "خارش",
+      "چھلنے والی جلد"
+    ]
+  },
+  {
+    "disease": "Psoriasis",
+    "symptom_sentence_en": "Reported signs are scaly skin, itching.",
+    "symptom_sentence_ur": "چھلنے والی جلد, خارش کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "scaly skin",
+      "itching"
+    ],
+    "symptoms_ur": [
+      "چھلنے والی جلد",
+      "خارش"
+    ]
+  },
+  {
+    "disease": "Psoriasis",
+    "symptom_sentence_en": "Reported signs are red patches, dry skin.",
+    "symptom_sentence_ur": "سرخ دھبے, خشک جلد کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "red patches",
+      "dry skin"
+    ],
+    "symptoms_ur": [
+      "سرخ دھبے",
+      "خشک جلد"
+    ]
+  },
+  {
+    "disease": "Psoriasis",
+    "symptom_sentence_en": "Complaints of red patches, scaly skin, itching, dry skin were observed.",
+    "symptom_sentence_ur": "علامات میں سرخ دھبے, چھلنے والی جلد, خارش, خشک جلد شامل ہیں۔",
+    "symptoms_en": [
+      "red patches",
+      "scaly skin",
+      "itching",
+      "dry skin"
+    ],
+    "symptoms_ur": [
+      "سرخ دھبے",
+      "چھلنے والی جلد",
+      "خارش",
+      "خشک جلد"
+    ]
+  },
+  {
+    "disease": "Psoriasis",
+    "symptom_sentence_en": "Complaints of dry skin, red patches, scaly skin, itching were observed.",
+    "symptom_sentence_ur": "خشک جلد, سرخ دھبے, چھلنے والی جلد, خارش کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "dry skin",
+      "red patches",
+      "scaly skin",
+      "itching"
+    ],
+    "symptoms_ur": [
+      "خشک جلد",
+      "سرخ دھبے",
+      "چھلنے والی جلد",
+      "خارش"
+    ]
+  },
+  {
+    "disease": "Psoriasis",
+    "symptom_sentence_en": "The individual is experiencing red patches, scaly skin.",
+    "symptom_sentence_ur": "سرخ دھبے, چھلنے والی جلد کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "red patches",
+      "scaly skin"
+    ],
+    "symptoms_ur": [
+      "سرخ دھبے",
+      "چھلنے والی جلد"
+    ]
+  },
+  {
+    "disease": "Psoriasis",
+    "symptom_sentence_en": "The patient is suffering from dry skin, red patches, itching, scaly skin.",
+    "symptom_sentence_ur": "علامات میں خشک جلد, سرخ دھبے, خارش, چھلنے والی جلد شامل ہیں۔",
+    "symptoms_en": [
+      "dry skin",
+      "red patches",
+      "itching",
+      "scaly skin"
+    ],
+    "symptoms_ur": [
+      "خشک جلد",
+      "سرخ دھبے",
+      "خارش",
+      "چھلنے والی جلد"
+    ]
+  },
+  {
+    "disease": "Autism Spectrum Disorder",
+    "symptom_sentence_en": "Reported signs are sensitivity to sound, social challenges.",
+    "symptom_sentence_ur": "آواز کی حساسیت, سماجی مشکلات کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "sensitivity to sound",
+      "social challenges"
+    ],
+    "symptoms_ur": [
+      "آواز کی حساسیت",
+      "سماجی مشکلات"
+    ]
+  },
+  {
+    "disease": "Autism Spectrum Disorder",
+    "symptom_sentence_en": "The individual is experiencing repetitive behaviors, speech delay, social challenges, sensitivity to sound.",
+    "symptom_sentence_ur": "دوہرانے والے رویے, بولنے میں تاخیر, سماجی مشکلات, آواز کی حساسیت کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "repetitive behaviors",
+      "speech delay",
+      "social challenges",
+      "sensitivity to sound"
+    ],
+    "symptoms_ur": [
+      "دوہرانے والے رویے",
+      "بولنے میں تاخیر",
+      "سماجی مشکلات",
+      "آواز کی حساسیت"
+    ]
+  },
+  {
+    "disease": "Autism Spectrum Disorder",
+    "symptom_sentence_en": "The patient is suffering from social challenges, speech delay, sensitivity to sound.",
+    "symptom_sentence_ur": "علامات میں سماجی مشکلات, بولنے میں تاخیر, آواز کی حساسیت شامل ہیں۔",
+    "symptoms_en": [
+      "social challenges",
+      "speech delay",
+      "sensitivity to sound"
+    ],
+    "symptoms_ur": [
+      "سماجی مشکلات",
+      "بولنے میں تاخیر",
+      "آواز کی حساسیت"
+    ]
+  },
+  {
+    "disease": "Autism Spectrum Disorder",
+    "symptom_sentence_en": "Symptoms include social challenges, sensitivity to sound, speech delay.",
+    "symptom_sentence_ur": "مریض کو سماجی مشکلات, آواز کی حساسیت, بولنے میں تاخیر محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "social challenges",
+      "sensitivity to sound",
+      "speech delay"
+    ],
+    "symptoms_ur": [
+      "سماجی مشکلات",
+      "آواز کی حساسیت",
+      "بولنے میں تاخیر"
+    ]
+  },
+  {
+    "disease": "Autism Spectrum Disorder",
+    "symptom_sentence_en": "Reported signs are sensitivity to sound, social challenges, speech delay.",
+    "symptom_sentence_ur": "آواز کی حساسیت, سماجی مشکلات, بولنے میں تاخیر کی شکایت کی گئی ہے۔",
+    "symptoms_en": [
+      "sensitivity to sound",
+      "social challenges",
+      "speech delay"
+    ],
+    "symptoms_ur": [
+      "آواز کی حساسیت",
+      "سماجی مشکلات",
+      "بولنے میں تاخیر"
+    ]
+  },
+  {
+    "disease": "Autism Spectrum Disorder",
+    "symptom_sentence_en": "Reported signs are sensitivity to sound, speech delay.",
+    "symptom_sentence_ur": "مریض کو آواز کی حساسیت, بولنے میں تاخیر کی شکایت ہے۔",
+    "symptoms_en": [
+      "sensitivity to sound",
+      "speech delay"
+    ],
+    "symptoms_ur": [
+      "آواز کی حساسیت",
+      "بولنے میں تاخیر"
+    ]
+  },
+  {
+    "disease": "Autism Spectrum Disorder",
+    "symptom_sentence_en": "Complaints of social challenges, repetitive behaviors, speech delay were observed.",
+    "symptom_sentence_ur": "مریض کو سماجی مشکلات, دوہرانے والے رویے, بولنے میں تاخیر محسوس ہو رہا ہے۔",
+    "symptoms_en": [
+      "social challenges",
+      "repetitive behaviors",
+      "speech delay"
+    ],
+    "symptoms_ur": [
+      "سماجی مشکلات",
+      "دوہرانے والے رویے",
+      "بولنے میں تاخیر"
+    ]
+  },
+  {
+    "disease": "Autism Spectrum Disorder",
+    "symptom_sentence_en": "The patient is suffering from speech delay, sensitivity to sound, social challenges.",
+    "symptom_sentence_ur": "بولنے میں تاخیر, آواز کی حساسیت, سماجی مشکلات کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "speech delay",
+      "sensitivity to sound",
+      "social challenges"
+    ],
+    "symptoms_ur": [
+      "بولنے میں تاخیر",
+      "آواز کی حساسیت",
+      "سماجی مشکلات"
+    ]
+  },
+  {
+    "disease": "Autism Spectrum Disorder",
+    "symptom_sentence_en": "Symptoms include speech delay, social challenges, sensitivity to sound.",
+    "symptom_sentence_ur": "بولنے میں تاخیر, سماجی مشکلات, آواز کی حساسیت کی علامات دیکھی گئیں۔",
+    "symptoms_en": [
+      "speech delay",
+      "social challenges",
+      "sensitivity to sound"
+    ],
+    "symptoms_ur": [
+      "بولنے میں تاخیر",
+      "سماجی مشکلات",
+      "آواز کی حساسیت"
+    ]
+  },
+  {
+    "disease": "Autism Spectrum Disorder",
+    "symptom_sentence_en": "Reported signs are social challenges, speech delay, sensitivity to sound, repetitive behaviors.",
+    "symptom_sentence_ur": "مریض کو سماجی مشکلات, بولنے میں تاخیر, آواز کی حساسیت, دوہرانے والے رویے کی شکایت ہے۔",
+    "symptoms_en": [
+      "social challenges",
+      "speech delay",
+      "sensitivity to sound",
+      "repetitive behaviors"
+    ],
+    "symptoms_ur": [
+      "سماجی مشکلات",
+      "بولنے میں تاخیر",
+      "آواز کی حساسیت",
+      "دوہرانے والے رویے"
+    ]
+  }
+]
