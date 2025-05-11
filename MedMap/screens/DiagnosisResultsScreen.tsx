@@ -4,8 +4,37 @@ import { Text, Card, ProgressBar, Divider, useTheme, Button } from 'react-native
 import { useDiagnosis } from '../context/DiagnosisContext';
 import { router } from 'expo-router';
 
+// filepath: c:\Users\Admin\Desktop\ff\MedMap\screens\DiagnosisResultsScreen.tsx
+
+// Extend the DiagnosisResponse type to include all required properties
+type DiagnosisResponse = {
+  prediction: {
+    disease: string;
+    confidence: number;
+    severity: string;
+    description: string;
+  };
+  probabilities: {
+    disease: string;
+    probability: number;
+    ml_confidence: number;
+    rule_confidence: number;
+    matched_symptoms: string[];
+  }[];
+  symptoms: {
+    total: number;
+    matched: string[];
+    severity: string;
+  };
+  metadata: {
+    model_version: string;
+    confidence_threshold: number;
+    timestamp: string;
+  };
+};
+
 export default function DiagnosisResultsScreen() {
-  const { diagnosis } = useDiagnosis();
+  const { diagnosis } = useDiagnosis() as { diagnosis: DiagnosisResponse | null };
   const theme = useTheme();
 
   if (!diagnosis) {
@@ -52,7 +81,12 @@ export default function DiagnosisResultsScreen() {
             <Text variant="bodyMedium" style={styles.description}>
               {diagnosis.prediction.description}
             </Text>
-            <View style={[styles.severityBadge, { backgroundColor: getSeverityColor(diagnosis.prediction.severity) }]}>
+            <View
+              style={[
+                styles.severityBadge,
+                { backgroundColor: getSeverityColor(diagnosis.prediction.severity) },
+              ]}
+            >
               <Text style={styles.severityText}>{diagnosis.prediction.severity} Severity</Text>
             </View>
           </View>
@@ -65,7 +99,7 @@ export default function DiagnosisResultsScreen() {
           <Text variant="headlineMedium" style={styles.title}>
             Detailed Analysis
           </Text>
-          {diagnosis.probabilities.map((prob, index) => (
+          {diagnosis.probabilities.map((prob: DiagnosisResponse['probabilities'][0], index: number) => (
             <View key={index} style={styles.probabilityItem}>
               <View style={styles.probabilityHeader}>
                 <Text variant="titleMedium">{prob.disease}</Text>
@@ -118,7 +152,7 @@ export default function DiagnosisResultsScreen() {
           <View style={styles.matchedSymptoms}>
             <Text variant="titleSmall">Matched Symptoms:</Text>
             <View style={styles.symptomsList}>
-              {diagnosis.symptoms.matched.map((symptom, index) => (
+              {diagnosis.symptoms.matched.map((symptom: string, index: number) => (
                 <View key={index} style={styles.symptomTag}>
                   <Text style={styles.symptomText}>{symptom}</Text>
                 </View>
@@ -153,11 +187,7 @@ export default function DiagnosisResultsScreen() {
         </Card.Content>
       </Card>
 
-      <Button
-        mode="contained"
-        onPress={() => router.back()}
-        style={styles.backButton}
-      >
+      <Button mode="contained" onPress={() => router.back()} style={styles.backButton}>
         Back to Diagnosis
       </Button>
     </ScrollView>
@@ -268,4 +298,4 @@ const styles = StyleSheet.create({
     margin: 16,
     marginBottom: 32,
   },
-}); 
+});

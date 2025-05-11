@@ -122,8 +122,8 @@ async function apiCall<T>(
 export const loginUser = (email: string, password: string) =>
   apiCall('/api/users/login', 'POST', { email, password });
 
-export const registerUser = (fullName: string, email: string, password: string, phone: string) =>
-  apiCall('/api/auth/register', 'POST', { fullName, email, password, phone });
+export const registerUser = (name: string, email: string, password: string, role: string, adminSecret?: string) =>
+  apiCall('/api/auth/register', 'POST', { name, email, password, role, adminSecret });
 
 export const getUserProfile = (userId: string): Promise<any> =>
   apiCall(`/api/users/profile/${userId}`, 'GET', undefined, 0);

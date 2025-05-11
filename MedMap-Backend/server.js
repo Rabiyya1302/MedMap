@@ -2,26 +2,91 @@ const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const natural = require('natural'); // Make sure this is installed: npm install natural
-const authRoutes = require('./routes/auth');
+const authRoutes = require('./routes/authRoutes');
 const connectDB = require('./db/connect');
 const Disease = require('./models/Disease');
-
+const Report=require('./models/Report')
+const {exec}=require("child_process")
+const dotenv=require("dotenv").config()
 const app = express();
 const PORT = process.env.PORT || 5000;
-
+const diagnosis=require("./routes/diagnosisRoutes")
+const diseaseReportRoutes = require('./routes/diseaseReportRoutes');
+const outbreakRoutes = require('./routes/outbreakRoutes');
+const clusterRoutes = require('./routes/clusterRoutes');
+const alertRoutes = require('./routes/alertRoutes');
 // Middleware
 app.use(cors());
 app.use(express.json());
 app.use(bodyParser.json());
 app.use("/api/auth", authRoutes);
+app.use("/api",diagnosis)
+app.use('/api/reports', diseaseReportRoutes);
+app.use('/api', outbreakRoutes);
+app.use('/api', clusterRoutes);
+app.use('/api', alertRoutes);
+const adminRoutes = require('./routes/adminRoutes');
+app.use('/api', adminRoutes);
 
-// Cosine similarity function
-function cosineSimilarity(vec1, vec2) {
-  const dot = vec1.reduce((sum, val, i) => sum + val * vec2[i], 0);
-  const mag1 = Math.sqrt(vec1.reduce((sum, val) => sum + val ** 2, 0));
-  const mag2 = Math.sqrt(vec2.reduce((sum, val) => sum + val ** 2, 0));
-  return mag1 && mag2 ? dot / (mag1 * mag2) : 0;
+// GET /api/diseases/:location
+//new latest diagnosis route
+
+app.get('/api/diseases/:location', async (req, res) => {
+  const { location } = req.params;
+
+  try {
+    const diseases = await DiseaseTracking.find({ location });
+    res.json(diseases);
+  } catch (error) {
+    res.status(500).json({ error: 'Error fetching disease data' });
+  }
+});
+//NLP Integration
+function predictDisease(symtpoms){
+  return new Promise((resolve,reject)=>{
+    exec(`python3 nlp_predict.py "${symptoms}"`,(err,stdout,stderr)=>{
+      if(err){
+        return reject(stderr);
+        resolve(stdout.trim());
+      }
+    })
+  })
 }
+//POST /api/report-Diagnose+Track
+app.post("/api/report",async(req,res)=>{
+  const{userId,symptoms,location}=req.body;
+  try {
+    const disease=await predictDisease(symptoms);
+    const report=new Report({
+      userId,
+      disease,
+      symptoms,
+      location:{
+        type:"Point",
+        coordinates:[location.lng,location.lat]
+      }
+    });
+    await report.save();
+    res.json({success:true,disease})
+  } catch (error) {
+    res.status(500).json({error:"Prediction or save failed",details:error})
+  }
+})
+api.get("/api/reports",async(req,res)=>{
+  const reports=await Report.find().limit(100).sort({timestamp:-1})
+  res.json(reports)
+})
+// GET /api/diseases
+app.get('/api/diseases', async (req, res) => {
+  try {
+    const diseases = await DiseaseTracking.find();
+    res.json(diseases);
+  } catch (error) {
+    res.status(500).json({ error: 'Error fetching disease data' });
+  }
+});
+
+
 
 // Diagnosis route
 app.post('/diagnose', async (req, res) => {

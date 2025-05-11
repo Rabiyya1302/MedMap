@@ -11,6 +11,7 @@ import {
 import { router } from 'expo-router';
 import { theme } from '../theme/theme';
 import { useAuth } from '../context/AuthContext';
+import{Picker} from "@react-native-picker/picker";
 
 const RegisterScreen: React.FC = () => {
   const [email, setEmail] = useState('');
@@ -18,7 +19,7 @@ const RegisterScreen: React.FC = () => {
   const [confirmPassword, setConfirmPassword] = useState('');
   const [fullname, setFullname] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
-
+  const [role,setRole]=useState<"user"|"official">("user")
   const { register, loading } = useAuth();
 
   const handleRegister = async () => {
@@ -35,7 +36,7 @@ const RegisterScreen: React.FC = () => {
         return;
       }
 
-      await register(email, password, fullname, phoneNumber);
+      await register(email, password, fullname, phoneNumber,role);
 
       // Navigate to dashboard with query parameter
       router.push('/dashboard?from=register');
@@ -87,7 +88,18 @@ const RegisterScreen: React.FC = () => {
         value={confirmPassword}
         onChangeText={setConfirmPassword}
       />
-
+     {/* Role Picker */}
+      <View style={styles.pickerContainer}>
+        <Text style={styles.pickerLabel}>Registering as:</Text>
+        <Picker
+          selectedValue={role}
+          onValueChange={(itemValue) => setRole(itemValue)}
+          style={styles.picker}
+        >
+          <Picker.Item label="General User" value="user" />
+          <Picker.Item label="Health Official" value="official" />
+        </Picker>
+      </View>
       <TouchableOpacity
         style={[styles.button, loading && { opacity: 0.7 }]}
         onPress={handleRegister}
@@ -159,4 +171,19 @@ const styles = StyleSheet.create({
     color: theme.colors.primary,
     fontWeight: 'bold',
   },
+    pickerContainer: {
+    marginBottom: 16,
+    backgroundColor: theme.colors.surface,
+    borderRadius: 8,
+  },
+  pickerLabel: {
+    color: theme.colors.onSurface,
+    paddingLeft: 12,
+    paddingTop: 8,
+  },
+  picker: {
+    height: 50,
+    color: theme.colors.onSurface,
+  },
+
 });

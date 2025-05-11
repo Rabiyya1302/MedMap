@@ -1,3 +1,4 @@
+// MedMap/app/_layout.tsx
 import React, { useState } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { Stack, useRouter, useSegments } from 'expo-router';
@@ -6,19 +7,18 @@ import { Provider as PaperProvider } from 'react-native-paper';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { theme } from '../theme/theme';
 import { DiagnosisProvider } from '../context/DiagnosisContext';
-import { AuthProvider } from '../context/AuthContext';
+import { AuthProvider, useAuth } from '../context/AuthContext';
 import DrawerContent from './drawer';
 
 const DRAWER_WIDTH = 280;
 
-export default function RootLayout() {
+function RootLayoutContent() {
   const [drawerVisible, setDrawerVisible] = useState(false);
-  const [isAdmin, setIsAdmin] = useState(false);
   const router = useRouter();
   const segments = useSegments();
+  const { user } = useAuth();
 
   const toggleDrawer = () => setDrawerVisible(!drawerVisible);
-  const toggleRole = () => setIsAdmin(!isAdmin);
 
   const currentRoute = segments[segments.length - 1] as string;
   const isAuthScreen = currentRoute === 'login' || currentRoute === 'registerScreen';
@@ -31,48 +31,61 @@ export default function RootLayout() {
   };
 
   return (
+    <View style={styles.container}>
+      {!isAuthScreen && drawerVisible && (
+        <View style={[styles.drawerContainer, { width: DRAWER_WIDTH }]}>
+          <DrawerContent
+            navigation={navigation}
+            currentRoute={currentRoute || ''}
+            toggleRole={() => {}}
+            isAdmin={user?.role === 'official'}
+          />
+        </View>
+      )}
+      <View style={styles.stackContainer}>
+        <Stack
+          screenOptions={{
+            headerShown: false,
+            gestureEnabled: !drawerVisible,
+          }}
+        >
+          <Stack.Screen name="index" />
+          <Stack.Screen name="loginScreen" />
+          <Stack.Screen name="registerScreen" />
+          <Stack.Screen name="dashboard" initialParams={{ toggleDrawer }} />
+          {user?.role === 'user' && (
+            <>
+              <Stack.Screen name="diagnosis" />
+              <Stack.Screen name="diagnosis-results" />
+            </>
+          )}
+          {user?.role === 'official' && (
+            <>
+              <Stack.Screen name="outbreak-alert" />
+              <Stack.Screen name="disease-tracker" />
+              <Stack.Screen name="manage-users" />
+            </>
+          )}
+          <Stack.Screen name="map" />
+          <Stack.Screen name="history" />
+          <Stack.Screen name="profile" />
+          <Stack.Screen name="alerts" />
+          <Stack.Screen name="analytics" />
+          <Stack.Screen name="language-settings" />
+        </Stack>
+      </View>
+    </View>
+  );
+}
+
+export default function RootLayout() {
+  return (
     <AuthProvider>
       <PaperProvider theme={theme}>
         <SafeAreaProvider>
           <DiagnosisProvider>
             <StatusBar style="auto" />
-            <View style={styles.container}>
-              {!isAuthScreen && drawerVisible && (
-                <View style={[styles.drawerContainer, { width: DRAWER_WIDTH }]}>
-                  <DrawerContent
-                    navigation={navigation}
-                    currentRoute={currentRoute || ''}
-                    toggleRole={toggleRole}
-                    isAdmin={isAdmin}
-                  />
-                </View>
-              )}
-              <View style={styles.stackContainer}>
-                <Stack
-                  screenOptions={{
-                    headerShown: false,
-                    gestureEnabled: !drawerVisible,
-                  }}
-                >
-                  <Stack.Screen name="index" />
-                  <Stack.Screen name="loginScreen" />
-                  <Stack.Screen name="registerScreen" />
-                  <Stack.Screen name="dashboard" initialParams={{ toggleDrawer }} />
-                  <Stack.Screen name="diagnosis" />
-                  <Stack.Screen name="diagnosis-results" />
-                  <Stack.Screen name="map" />
-                  <Stack.Screen name="history" />
-                  <Stack.Screen name="profile" />
-                  <Stack.Screen name="alerts" />
-                  <Stack.Screen name="analytics" />
-                  <Stack.Screen name="language-settings" />
-                  <Stack.Screen name="manage-users" />
-                  <Stack.Screen name="outbreak-alert" />
-                  <Stack.Screen name="regional-map" />
-                  <Stack.Screen name="disease-tracker" />
-                </Stack>
-              </View>
-            </View>
+            <RootLayoutContent />
           </DiagnosisProvider>
         </SafeAreaProvider>
       </PaperProvider>

@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, ActivityIndicator, ScrollView } from 'react-native';
+import { View, Text, StyleSheet, ActivityIndicator, ScrollView, Alert } from 'react-native';
 import MapView, { Marker, PROVIDER_GOOGLE, Heatmap } from 'react-native-maps';
 import { Ionicons } from '@expo/vector-icons';
+import * as Location from 'expo-location';
+import axios from 'axios';
 
-interface Alert {
+interface AlertType {
   id: string;
   disease: string;
   region: string;
@@ -13,46 +15,7 @@ interface Alert {
   longitude: number;
 }
 
-const mockData: Alert[] = [
-  {
-    id: '1',
-    disease: 'Dengue Fever',
-    region: 'Lahore, Pakistan',
-    severity: 'high',
-    description: 'A high number of Dengue fever cases have been reported in Lahore.',
-    latitude: 31.5497,
-    longitude: 74.3436,
-  },
-  {
-    id: '2',
-    disease: 'COVID-19',
-    region: 'Karachi, Pakistan',
-    severity: 'critical',
-    description: 'COVID-19 cases are rising rapidly in Karachi, hospitals are overwhelmed.',
-    latitude: 24.8607,
-    longitude: 67.0011,
-  },
-  {
-    id: '3',
-    disease: 'Cholera',
-    region: 'Rawalpindi, Pakistan',
-    severity: 'medium',
-    description: 'Several cases of Cholera have been confirmed in Rawalpindi.',
-    latitude: 33.5651,
-    longitude: 73.0169,
-  },
-  {
-    id: '4',
-    disease: 'Malaria',
-    region: 'Islamabad, Pakistan',
-    severity: 'low',
-    description: 'Malaria cases have slightly increased in Islamabad, but are under control.',
-    latitude: 33.6844,
-    longitude: 73.0479,
-  },
-];
-
-const getSeverityColor = (severity: Alert['severity']) => {
+const getSeverityColor = (severity: AlertType['severity']) => {
   switch (severity) {
     case 'critical':
       return '#FF2A68';
@@ -83,15 +46,51 @@ const getSeverityIcon = (severity: string): keyof typeof Ionicons.glyphMap => {
 };
 
 const OutbreakAlertMapScreen: React.FC = () => {
-  const [alerts, setAlerts] = useState<Alert[]>([]);
+  const [alerts, setAlerts] = useState<AlertType[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate loading
-    setTimeout(() => {
-      setAlerts(mockData);
-      setLoading(false);
-    }, 1000);
+    const fetchAlerts = async () => {
+      try {
+        const { status } = await Location.requestForegroundPermissionsAsync();
+        if (status !== 'granted') {
+          Alert.alert('Permission Denied', 'Location permission is required to fetch alerts.');
+          setLoading(false);
+          return;
+        }
+        const location = await Location.getCurrentPositionAsync({});
+        const latitude = location.coords.latitude;
+        const longitude = location.coords.longitude;
+
+        const response = await axios.get('http://localhost:5000/alert', {
+          params: { latitude, longitude },
+        });
+
+        // Assuming backend returns { message: string } - adapt if backend returns alerts array
+        // For demo, create a dummy alert based on message
+        if (response.data.message === 'Red zone alert triggered!') {
+          setAlerts([
+            {
+              id: '1',
+              disease: 'Red Zone Alert',
+              region: 'Your Area',
+              severity: 'high',
+              description: 'High severity alert in your area.',
+              latitude,
+              longitude,
+            },
+          ]);
+        } else {
+          setAlerts([]);
+        }
+      } catch (error) {
+        Alert.alert('Error', 'Failed to fetch alerts.');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchAlerts();
   }, []);
 
   if (loading) {
@@ -130,9 +129,14 @@ const OutbreakAlertMapScreen: React.FC = () => {
           points={alerts.map((alert) => ({
             latitude: alert.latitude,
             longitude: alert.longitude,
-            weight: alert.severity === 'critical' ? 1.0 :
-                    alert.severity === 'high' ? 0.75 :
-                    alert.severity === 'medium' ? 0.5 : 0.3,
+            weight:
+              alert.severity === 'critical'
+                ? 1.0
+                : alert.severity === 'high'
+                ? 0.75
+                : alert.severity === 'medium'
+                ? 0.5
+                : 0.3,
           }))}
           radius={50}
           opacity={0.6}
@@ -145,24 +149,28 @@ const OutbreakAlertMapScreen: React.FC = () => {
       </MapView>
 
       <ScrollView style={styles.alertList}>
-        {alerts.map((alert) => (
-          <View
-            key={alert.id}
-            style={[styles.alertItem, { borderLeftColor: getSeverityColor(alert.severity) }]}
-          >
-            <View style={styles.alertHeader}>
-              <Ionicons
-                name={getSeverityIcon(alert.severity)}
-                size={20}
-                color={getSeverityColor(alert.severity)}
-                style={{ marginRight: 8 }}
-              />
-              <Text style={styles.alertTitle}>{alert.disease}</Text>
+        {alerts.length === 0 ? (
+          <Text style={styles.noAlerts}>No alerts in your area.</Text>
+        ) : (
+          alerts.map((alert) => (
+            <View
+              key={alert.id}
+              style={[styles.alertItem, { borderLeftColor: getSeverityColor(alert.severity) }]}
+            >
+              <View style={styles.alertHeader}>
+                <Ionicons
+                  name={getSeverityIcon(alert.severity)}
+                  size={20}
+                  color={getSeverityColor(alert.severity)}
+                  style={{ marginRight: 8 }}
+                />
+                <Text style={styles.alertTitle}>{alert.disease}</Text>
+              </View>
+              <Text style={styles.alertRegion}>{alert.region}</Text>
+              <Text style={styles.alertDescription}>{alert.description}</Text>
             </View>
-            <Text style={styles.alertRegion}>{alert.region}</Text>
-            <Text style={styles.alertDescription}>{alert.description}</Text>
-          </View>
-        ))}
+          ))
+        )}
       </ScrollView>
     </View>
   );
@@ -214,6 +222,12 @@ const styles = StyleSheet.create({
     fontSize: 13,
     color: '#aaa',
     marginTop: 4,
+  },
+  noAlerts: {
+    color: '#ccc',
+    fontSize: 16,
+    textAlign: 'center',
+    marginTop: 20,
   },
   center: {
     flex: 1,

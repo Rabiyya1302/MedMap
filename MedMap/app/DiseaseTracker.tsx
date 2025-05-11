@@ -6,12 +6,17 @@ import {
   StyleSheet,
   TouchableOpacity,
   Animated,
+  ActivityIndicator,
 } from 'react-native';
 import { useTheme } from '../theme/ThemeContext';
 import { MaterialIcons } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
+import { useNavigation } from '@react-navigation/native';
+import axios from 'axios';
 
-interface DiseaseData {
+interface DiseaseReport {
+  _id: string;
+  disease: string;
   currentStatus: string;
   cases: {
     total: number;
@@ -27,68 +32,21 @@ interface DiseaseData {
   prevention: string[];
   riskLevel: string;
   trend: string;
+  locations: {
+    latitude: number;
+    longitude: number;
+    city?: string;
+  }[];
 }
-
-// Mock data relevant to Pakistan
-const DISEASE_OUTBREAKS: Record<string, DiseaseData> = {
-  "Dengue Fever": {
-    currentStatus: "active",
-    cases: {
-      total: 10000,
-      active: 1500,
-      recovered: 8500,
-      deaths: 200,
-    },
-    lastUpdated: "2025-04-19",
-    affectedRegions: ["Karachi", "Lahore", "Islamabad", "Rawalpindi"],
-    transmission: "Mosquito-borne",
-    severity: "moderate",
-    symptoms: ["Fever", "Headache", "Joint pain", "Skin rash"],
-    prevention: ["Use mosquito nets", "Eliminate standing water", "Wear insect repellent"],
-    riskLevel: "high",
-    trend: "increasing",
-  },
-  "COVID-19": {
-    currentStatus: "outbreak",
-    cases: {
-      total: 1500000,
-      active: 30000,
-      recovered: 1450000,
-      deaths: 50000,
-    },
-    lastUpdated: "2025-04-19",
-    affectedRegions: ["Karachi", "Lahore", "Peshawar", "Multan", "Islamabad"],
-    transmission: "Airborne",
-    severity: "very high",
-    symptoms: ["Fever", "Cough", "Shortness of breath", "Loss of taste and smell"],
-    prevention: ["Wear masks", "Practice social distancing", "Vaccination"],
-    riskLevel: "very high",
-    trend: "decreasing",
-  },
-  "Cholera": {
-    currentStatus: "contained",
-    cases: {
-      total: 5000,
-      active: 50,
-      recovered: 4900,
-      deaths: 50,
-    },
-    lastUpdated: "2025-04-18",
-    affectedRegions: ["Karachi", "Hyderabad", "Sukkur"],
-    transmission: "Waterborne",
-    severity: "moderate",
-    symptoms: ["Diarrhea", "Vomiting", "Dehydration"],
-    prevention: ["Boil water", "Hand hygiene", "Sanitation"],
-    riskLevel: "moderate",
-    trend: "stable",
-  },
-};
 
 const DiseaseTracker: React.FC = () => {
   const { theme } = useTheme();
+  const navigation = useNavigation<any>();
+  const [diseases, setDiseases] = useState<DiseaseReport[]>([]);
   const [selectedDisease, setSelectedDisease] = useState<string | null>(null);
   const [filter, setFilter] = useState<'all' | 'active' | 'outbreak'>('all');
   const [animation] = useState(new Animated.Value(0));
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     Animated.timing(animation, {
@@ -96,52 +54,48 @@ const DiseaseTracker: React.FC = () => {
       duration: 500,
       useNativeDriver: true,
     }).start();
+
+    axios.get('http://<your-api>/api/reports') // Replace with your backend endpoint
+      .then(response => {
+        setDiseases(response.data);
+        setLoading(false);
+      })
+      .catch(error => {
+        console.error('Error fetching reports:', error);
+        setLoading(false);
+      });
   }, []);
 
   const getRiskColor = (riskLevel: string) => {
     switch (riskLevel.toLowerCase()) {
-      case 'very high':
-        return '#ff0000';
-      case 'high':
-        return '#ff4444';
-      case 'moderate':
-        return '#ffbb33';
-      case 'low':
-        return '#00C851';
-      default:
-        return theme.colors.primary;
+      case 'very high': return '#ff0000';
+      case 'high': return '#ff4444';
+      case 'moderate': return '#ffbb33';
+      case 'low': return '#00C851';
+      default: return theme.colors.primary;
     }
   };
 
   const getTrendIcon = (trend: string) => {
     switch (trend.toLowerCase()) {
-      case 'increasing':
-        return 'trending-up';
-      case 'decreasing':
-        return 'trending-down';
-      case 'stable':
-        return 'trending-flat';
-      default:
-        return 'trending-flat';
+      case 'increasing': return 'trending-up';
+      case 'decreasing': return 'trending-down';
+      case 'stable': return 'trending-flat';
+      default: return 'trending-flat';
     }
   };
 
   const getStatusColor = (status: string) => {
     switch (status.toLowerCase()) {
-      case 'active':
-        return '#ff4444';
-      case 'outbreak':
-        return '#ff0000';
-      case 'contained':
-        return '#00C851';
-      case 'endemic':
-        return '#ffbb33';
-      default:
-        return '#666666';
+      case 'active': return '#ff4444';
+      case 'outbreak': return '#ff0000';
+      case 'contained': return '#00C851';
+      case 'endemic': return '#ffbb33';
+      default: return '#666666';
     }
   };
 
-  const filteredDiseases = Object.entries(DISEASE_OUTBREAKS).filter(([_, data]) => {
+  const filteredDiseases = diseases.filter(data => {
     if (filter === 'all') return true;
     if (filter === 'active') return data.currentStatus === 'active';
     if (filter === 'outbreak') return data.currentStatus === 'outbreak';
@@ -160,55 +114,53 @@ const DiseaseTracker: React.FC = () => {
     opacity: animation,
   };
 
+  if (loading) {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <ActivityIndicator size="large" color="#4CAF50" />
+        <Text style={{ marginTop: 10 }}>Loading data...</Text>
+      </View>
+    );
+  }
+
   return (
     <ScrollView style={[styles.container, { backgroundColor: theme.colors.background }]}>
-      <LinearGradient
-        colors={['#4CAF50', '#4CAF5080']}
-        style={styles.header}
-      >
+      <LinearGradient colors={['#4CAF50', '#4CAF5080']} style={styles.header}>
         <Text style={styles.title}>Disease Tracker</Text>
         <Text style={styles.subtitle}>National Health Monitoring</Text>
       </LinearGradient>
 
       <View style={styles.filterContainer}>
-        <TouchableOpacity
-          style={[styles.filterButton, filter === 'all' && styles.activeFilter]}
-          onPress={() => setFilter('all')}
-        >
-          <MaterialIcons name="public" size={20} color={filter === 'all' ? 'white' : theme.colors.text} />
-          <Text style={[styles.filterText, filter === 'all' && styles.activeFilterText]}>All</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={[styles.filterButton, filter === 'active' && styles.activeFilter]}
-          onPress={() => setFilter('active')}
-        >
-          <MaterialIcons name="warning" size={20} color={filter === 'active' ? 'white' : theme.colors.text} />
-          <Text style={[styles.filterText, filter === 'active' && styles.activeFilterText]}>Active</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={[styles.filterButton, filter === 'outbreak' && styles.activeFilter]}
-          onPress={() => setFilter('outbreak')}
-        >
-          <MaterialIcons name="error" size={20} color={filter === 'outbreak' ? 'white' : theme.colors.text} />
-          <Text style={[styles.filterText, filter === 'outbreak' && styles.activeFilterText]}>Outbreaks</Text>
-        </TouchableOpacity>
+        {['all', 'active', 'outbreak'].map((type) => (
+          <TouchableOpacity
+            key={type}
+            style={[styles.filterButton, filter === type && styles.activeFilter]}
+            onPress={() => setFilter(type as any)}
+          >
+            <MaterialIcons
+              name={type === 'all' ? 'public' : type === 'active' ? 'warning' : 'error'}
+              size={20}
+              color={filter === type ? 'white' : theme.colors.text}
+            />
+            <Text style={[styles.filterText, filter === type && styles.activeFilterText]}>
+              {type.charAt(0).toUpperCase() + type.slice(1)}
+            </Text>
+          </TouchableOpacity>
+        ))}
       </View>
 
-      {filteredDiseases.map(([disease, data]) => (
+      {filteredDiseases.map((data) => (
         <Animated.View
-          key={disease}
-          style={[cardAnimation, { opacity: animation.interpolate({
-            inputRange: [0, 1],
-            outputRange: [0, 1],
-          }) }]}
+          key={data._id}
+          style={[cardAnimation, { opacity: animation }]}
         >
           <TouchableOpacity
-            style={[styles.diseaseCard, { borderColor: getRiskColor(data.riskLevel) }, { backgroundColor: theme.colors.background }]}
-            onPress={() => setSelectedDisease(selectedDisease === disease ? null : disease)}
+            style={[styles.diseaseCard, { borderColor: getRiskColor(data.riskLevel), backgroundColor: theme.colors.background }]}
+            onPress={() => setSelectedDisease(selectedDisease === data._id ? null : data._id)}
           >
             <View style={styles.diseaseHeader}>
               <View style={styles.titleContainer}>
-                <Text style={[styles.diseaseName, { color: theme.colors.text }]}>{disease}</Text>
+                <Text style={[styles.diseaseName, { color: theme.colors.text }]}>{data.disease}</Text>
                 <View style={[styles.statusBadge, { backgroundColor: getStatusColor(data.currentStatus) }]}>
                   <Text style={styles.statusText}>{data.currentStatus}</Text>
                 </View>
@@ -221,30 +173,24 @@ const DiseaseTracker: React.FC = () => {
             </View>
 
             <View style={styles.statsContainer}>
-              <View style={styles.statItem}>
-                <MaterialIcons name="person" size={20} color={theme.colors.text} />
-                <Text style={[styles.statValue, { color: theme.colors.text }]}>
-                  {data.cases.active.toLocaleString()}
-                </Text>
-                <Text style={[styles.statLabel, { color: theme.colors.text }]}>Active</Text>
-              </View>
-              <View style={styles.statItem}>
-                <MaterialIcons name="group" size={20} color={theme.colors.text} />
-                <Text style={[styles.statValue, { color: theme.colors.text }]}>
-                  {data.cases.total.toLocaleString()}
-                </Text>
-                <Text style={[styles.statLabel, { color: theme.colors.text }]}>Total</Text>
-              </View>
-              <View style={styles.statItem}>
-                <MaterialIcons name="favorite" size={20} color={theme.colors.text} />
-                <Text style={[styles.statValue, { color: theme.colors.text }]}>
-                  {data.cases.deaths.toLocaleString()}
-                </Text>
-                <Text style={[styles.statLabel, { color: theme.colors.text }]}>Deaths</Text>
-              </View>
+              {['active', 'total', 'deaths'].map(stat => (
+                <View key={stat} style={styles.statItem}>
+                  <MaterialIcons
+                    name={stat === 'active' ? 'person' : stat === 'total' ? 'group' : 'favorite'}
+                    size={20}
+                    color={theme.colors.text}
+                  />
+                  <Text style={[styles.statValue, { color: theme.colors.text }]}>
+                    {data.cases[stat as keyof typeof data.cases].toLocaleString()}
+                  </Text>
+                  <Text style={[styles.statLabel, { color: theme.colors.text }]}>
+                    {stat.charAt(0).toUpperCase() + stat.slice(1)}
+                  </Text>
+                </View>
+              ))}
             </View>
 
-            {selectedDisease === disease && (
+            {selectedDisease === data._id && (
               <View style={styles.detailsContainer}>
                 <View style={styles.detailRow}>
                   <MaterialIcons name="location-on" size={20} color={theme.colors.text} />
@@ -285,6 +231,22 @@ const DiseaseTracker: React.FC = () => {
                     </Text>
                   </View>
                 </View>
+
+                <TouchableOpacity
+                  onPress={() => navigation.navigate('InteractiveMap', {
+                    diseaseName: data.disease,
+                    locations: data.locations,
+                  })}
+                  style={{
+                    marginTop: 10,
+                    padding: 10,
+                    backgroundColor: '#4CAF50',
+                    borderRadius: 8,
+                    alignItems: 'center',
+                  }}
+                >
+                  <Text style={{ color: 'white', fontWeight: 'bold' }}>View on Map</Text>
+                </TouchableOpacity>
               </View>
             )}
           </TouchableOpacity>
@@ -295,113 +257,37 @@ const DiseaseTracker: React.FC = () => {
 };
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
+  container: { flex: 1 },
   header: {
     padding: 20,
     paddingTop: 40,
     borderBottomLeftRadius: 20,
     borderBottomRightRadius: 20,
     marginBottom: 20,
-    marginTop:50,
+    marginTop: 50,
   },
-  title: {
-    fontSize: 28,
-    fontWeight: 'bold',
-    color: 'white',
-    marginBottom: 5,
-  },
-  subtitle: {
-    fontSize: 16,
-    color: 'white',
-    opacity: 0.8,
-  },
-  filterContainer: {
-    flexDirection: 'row',
-    marginHorizontal: 20,
-    marginBottom: 10,
-  },
-  filterButton: {
-    flex: 1,
-    padding: 10,
-    alignItems: 'center',
-    borderRadius: 10,
-    marginHorizontal: 5,
-  },
-  activeFilter: {
-    backgroundColor: '#4CAF50',
-  },
-  filterText: {
-    fontSize: 16,
-    color: '#666',
-  },
-  activeFilterText: {
-    color: 'white',
-  },
-  diseaseCard: {
-    marginHorizontal: 20,
-    marginBottom: 20,
-    borderRadius: 10,
-    padding: 15,
-    borderWidth: 1,
-  },
-  diseaseHeader: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    marginBottom: 10,
-  },
-  titleContainer: {
-    flexDirection: 'row',
-  },
-  diseaseName: {
-    fontSize: 20,
-    fontWeight: 'bold',
-  },
-  statusBadge: {
-    paddingVertical: 5,
-    paddingHorizontal: 10,
-    borderRadius: 20,
-    marginLeft: 10,
-  },
-  statusText: {
-    color: 'white',
-    fontSize: 12,
-  },
-  statsContainer: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    marginBottom: 10,
-  },
-  statItem: {
-    alignItems: 'center',
-  },
-  statValue: {
-    fontSize: 18,
-    fontWeight: 'bold',
-  },
-  statLabel: {
-    fontSize: 14,
-    color: '#666',
-  },
-  detailsContainer: {
-    marginTop: 10,
-  },
-  detailRow: {
-    flexDirection: 'row',
-    marginBottom: 10,
-  },
-  detailContent: {
-    marginLeft: 10,
-    flex: 1,
-  },
-  detailTitle: {
-    fontWeight: 'bold',
-  },
-  detailText: {
-    marginTop: 5,
-    color: '#444',
-  },
+  title: { fontSize: 28, fontWeight: 'bold', color: 'white', marginBottom: 5 },
+  subtitle: { fontSize: 16, color: 'white', opacity: 0.8 },
+  filterContainer: { flexDirection: 'row', marginHorizontal: 20, marginBottom: 10 },
+  filterButton: { flex: 1, padding: 10, alignItems: 'center', borderRadius: 10, marginHorizontal: 5 },
+  activeFilter: { backgroundColor: '#4CAF50' },
+  filterText: { fontSize: 16, color: '#666' },
+  activeFilterText: { color: 'white' },
+  diseaseCard: { marginHorizontal: 20, marginBottom: 20, borderRadius: 10, padding: 15, borderWidth: 1 },
+  diseaseHeader: { flexDirection: 'row', justifyContent: 'space-between', marginBottom: 10 },
+  titleContainer: { flexDirection: 'row' },
+  diseaseName: { fontSize: 20, fontWeight: 'bold' },
+  statusBadge: { paddingVertical: 5, paddingHorizontal: 10, borderRadius: 20, marginLeft: 10 },
+  statusText: { color: 'white', fontSize: 12 },
+  statsContainer: { flexDirection: 'row', justifyContent: 'space-between', marginBottom: 10 },
+  statItem: { alignItems: 'center' },
+  statValue: { fontSize: 18, fontWeight: 'bold' },
+  statLabel: { fontSize: 14, color: '#666' },
+  detailsContainer: { marginTop: 10 },
+  detailRow: { flexDirection: 'row', marginBottom: 10 },
+  detailContent: { marginLeft: 10, flex: 1 },
+  detailTitle: { fontWeight: 'bold' },
+  detailText: { marginTop: 5, color: '#444' },
 });
 
 export default DiseaseTracker;

@@ -1,28 +1,27 @@
 import React, { createContext, useContext, useState, useCallback } from 'react';
 import axios from 'axios';
-import type { DiagnosisResult } from '../types/api';
+import type { DiagnosisResponse } from '../types/api';
 import { Platform } from 'react-native';
-import *as Location from "expo-location";
-// For Android emulator, use 10.0.2.2 to access localhost
-// For iOS simulator, use localhost
-// For physical devices, use your computer's local IP
+import * as Location from "expo-location";
+
+// Determine base URL depending on dev/production
 const getBaseUrl = () => {
   if (__DEV__) {
-    return 'http://192.168.189.114:5000';  // Use the specified IP for all platforms
+    return 'http://192.168.22.114:5000';
   }
-  return 'https://api.medmap.com';  // Production
+  return 'https://api.medmap.com';  // Replace with your production domain
 };
 
 const API_BASE_URL = getBaseUrl();
 
 interface DiagnosisContextType {
   symptoms: string[];
-  diagnosis: DiagnosisResult | null;
+  diagnosis: DiagnosisResponse | null;
   loading: boolean;
   error: string | null;
   addSymptom: (symptom: string) => void;
   removeSymptom: (symptom: string) => void;
-  getDiagnosis: (location?:any) => Promise<void>;
+  getDiagnosis: () => Promise<void>;
   clearDiagnosis: () => void;
 }
 
@@ -30,7 +29,7 @@ const DiagnosisContext = createContext<DiagnosisContextType | undefined>(undefin
 
 export const DiagnosisProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [symptoms, setSymptoms] = useState<string[]>([]);
-  const [diagnosis, setDiagnosis] = useState<DiagnosisResult | null>(null);
+  const [diagnosis, setDiagnosis] = useState<DiagnosisResponse | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -44,7 +43,7 @@ export const DiagnosisProvider: React.FC<{ children: React.ReactNode }> = ({ chi
     setSymptoms(prev => prev.filter(s => s !== symptom));
   }, []);
 
-  const getDiagnosis = useCallback(async (location?:any):Promise<void> => {
+  const getDiagnosis = useCallback(async (): Promise<void> => {
     if (symptoms.length === 0) {
       setError('Please add at least one symptom');
       return;
@@ -54,19 +53,22 @@ export const DiagnosisProvider: React.FC<{ children: React.ReactNode }> = ({ chi
     setError(null);
 
     try {
-      const {status}=await Location.requestForegroundPermissionsAsync();
-      if(status!=="granted"){
+      const { status } = await Location.requestForegroundPermissionsAsync();
+      if (status !== "granted") {
         setError("Location permission denied.");
         setLoading(false);
         return;
       }
-      const location=await Location.getCurrentPositionAsync({});
-      const latitude=location.coords.latitude;
-      const longitude=location.coords.longitude;
-      console.log('Making request to:', `${API_BASE_URL}/api/ai/predict`);
-      const response = await axios.post(`${API_BASE_URL}/api/ai/predict`, {
-        text: symptoms.join(', '),
-        location:{latitude,longitude}
+
+      const location = await Location.getCurrentPositionAsync({});
+      const latitude = location.coords.latitude;
+      const longitude = location.coords.longitude;
+
+      console.log('Making request to:', `${API_BASE_URL}/diagnose`);
+      const response = await axios.post(`${API_BASE_URL}/diagnose`, {
+        symptoms,
+        latitude,
+        longitude
       }, {
         timeout: 30000,
         headers: {
@@ -79,12 +81,12 @@ export const DiagnosisProvider: React.FC<{ children: React.ReactNode }> = ({ chi
         throw new Error('No data received from server');
       }
 
-      setDiagnosis(response.data);
+      setDiagnosis({
+        query_symptoms: response.data.query_symptoms,
+        possible_diseases: response.data.possible_diseases
+      });
     } catch (err) {
       if (axios.isAxiosError(err)) {
-        console.error('Axios error response:', err.response);
-        console.error('Axios error request:', err.request);
-        console.error('Axios error message:', err.message);
         if (err.code === 'ECONNABORTED') {
           setError('Request timed out. Please check your internet connection.');
         } else if (err.response) {
@@ -130,4 +132,4 @@ export const useDiagnosis = () => {
     throw new Error('useDiagnosis must be used within a DiagnosisProvider');
   }
   return context;
-}; 
+};

@@ -20,7 +20,6 @@ import { useDiagnosis } from '../context/DiagnosisContext';
 import { useRouter } from 'expo-router';
 import useLocation from '../hooks/useLocation';
 import Voice from '@react-native-voice/voice';
-import { Audio } from 'expo-av';
 
 export default function DiagnosisScreen() {
   const theme = useTheme();
@@ -36,9 +35,6 @@ export default function DiagnosisScreen() {
   } = useDiagnosis();
   const [symptomInput, setSymptomInput] = useState('');
   const [isRecording, setIsRecording] = useState(false);
-  const [recording, setRecording] = useState<Audio.Recording | null>(null);
-  const [sound, setSound] = useState<Audio.Sound | null>(null);
-  const [isPlaying, setIsPlaying] = useState(false);
   const [recordingError, setRecordingError] = useState<string | null>(null);
   const router = useRouter();
 
@@ -82,35 +78,6 @@ export default function DiagnosisScreen() {
     }
   };
 
-  // Audio playback handlers
-  const playSound = async () => {
-    if (sound) {
-      await sound.replayAsync();
-      setIsPlaying(true);
-      sound.setOnPlaybackStatusUpdate((status) => {
-        if (!status.isPlaying) {
-          setIsPlaying(false);
-        }
-      });
-    }
-  };
-
-  const stopSound = async () => {
-    if (sound) {
-      await sound.stopAsync();
-      setIsPlaying(false);
-    }
-  };
-
-  const loadSound = async (uri: string) => {
-    if (sound) {
-      await sound.unloadAsync();
-      setSound(null);
-    }
-    const { sound: newSound } = await Audio.Sound.createAsync({ uri });
-    setSound(newSound);
-  };
-
   const handleAddSymptom = () => {
     if (symptomInput.trim()) {
       addSymptom(symptomInput.trim());
@@ -120,11 +87,7 @@ export default function DiagnosisScreen() {
 
   const handleGetDiagnosis = async () => {
     try {
-      await getDiagnosis(location); // 🟡 Pass location here
-      // Example: load a sound file for playback after diagnosis
-      // Replace with actual URI from diagnosis result if available
-      const exampleAudioUri = 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3';
-      await loadSound(exampleAudioUri);
+      await getDiagnosis();
       await router.push({ pathname: '/diagnosis-results' });
     } catch (error) {
       console.error('Error during diagnosis or navigation:', error);
@@ -147,10 +110,7 @@ export default function DiagnosisScreen() {
             ]}
           >
             <View style={styles.titleWrapper}>
-              <Text
-                variant="headlineMedium"
-                style={[styles.title, { textAlign: 'center' }]}
-              >
+              <Text variant="headlineMedium" style={[styles.title, { textAlign: 'center' }]}>
                 🩺 Enter Your Symptoms
               </Text>
               <Text
@@ -254,18 +214,6 @@ export default function DiagnosisScreen() {
               <Text style={[styles.error, { color: theme.colors.error }]}>
                 {error}
               </Text>
-            )}
-
-            {sound && (
-              <View style={{ flexDirection: 'row', justifyContent: 'center', marginTop: 16 }}>
-                <Button
-                  mode="outlined"
-                  onPress={isPlaying ? stopSound : playSound}
-                  icon={isPlaying ? 'stop' : 'play'}
-                >
-                  {isPlaying ? 'Stop Audio' : 'Play Audio'}
-                </Button>
-              </View>
             )}
           </Surface>
         </View>
